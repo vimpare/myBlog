@@ -20,6 +20,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
+  base: '/myBlog/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
