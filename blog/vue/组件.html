@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>组件基础 | Hanhan &#39;s blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/myBlog/logo.png">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/myBlog/assets/css/0.styles.a8562fc9.css" as="style"><link rel="preload" href="/myBlog/assets/js/app.7acaacf7.js" as="script"><link rel="preload" href="/myBlog/assets/js/2.403a57ea.js" as="script"><link rel="preload" href="/myBlog/assets/js/58.16f6a023.js" as="script"><link rel="prefetch" href="/myBlog/assets/js/10.cca9e930.js"><link rel="prefetch" href="/myBlog/assets/js/100.3b6e92ce.js"><link rel="prefetch" href="/myBlog/assets/js/101.3c430b71.js"><link rel="prefetch" href="/myBlog/assets/js/102.686e45bd.js"><link rel="prefetch" href="/myBlog/assets/js/103.eb7f172d.js"><link rel="prefetch" href="/myBlog/assets/js/104.47fd4f4b.js"><link rel="prefetch" href="/myBlog/assets/js/105.66ba238d.js"><link rel="prefetch" href="/myBlog/assets/js/106.08c6341e.js"><link rel="prefetch" href="/myBlog/assets/js/107.60957ee7.js"><link rel="prefetch" href="/myBlog/assets/js/108.8777724b.js"><link rel="prefetch" href="/myBlog/assets/js/109.86233dc9.js"><link rel="prefetch" href="/myBlog/assets/js/11.8e043ca9.js"><link rel="prefetch" href="/myBlog/assets/js/110.b3da631e.js"><link rel="prefetch" href="/myBlog/assets/js/111.9a57dcc6.js"><link rel="prefetch" href="/myBlog/assets/js/112.de925092.js"><link rel="prefetch" href="/myBlog/assets/js/113.9a4b5196.js"><link rel="prefetch" href="/myBlog/assets/js/114.c071d88c.js"><link rel="prefetch" href="/myBlog/assets/js/115.873990c4.js"><link rel="prefetch" href="/myBlog/assets/js/116.94230e27.js"><link rel="prefetch" href="/myBlog/assets/js/117.7c94500c.js"><link rel="prefetch" href="/myBlog/assets/js/118.d176d41d.js"><link rel="prefetch" href="/myBlog/assets/js/119.4e607ab0.js"><link rel="prefetch" href="/myBlog/assets/js/12.bcf5d818.js"><link rel="prefetch" href="/myBlog/assets/js/120.6120700c.js"><link rel="prefetch" href="/myBlog/assets/js/121.1f94c383.js"><link rel="prefetch" href="/myBlog/assets/js/122.f567164f.js"><link rel="prefetch" href="/myBlog/assets/js/13.4700c891.js"><link rel="prefetch" href="/myBlog/assets/js/14.ba843a60.js"><link rel="prefetch" href="/myBlog/assets/js/15.6b5a90df.js"><link rel="prefetch" href="/myBlog/assets/js/16.483b4768.js"><link rel="prefetch" href="/myBlog/assets/js/17.334378d7.js"><link rel="prefetch" href="/myBlog/assets/js/18.58052004.js"><link rel="prefetch" href="/myBlog/assets/js/19.84a36125.js"><link rel="prefetch" href="/myBlog/assets/js/20.b12f961b.js"><link rel="prefetch" href="/myBlog/assets/js/21.69fb09a0.js"><link rel="prefetch" href="/myBlog/assets/js/22.4142444a.js"><link rel="prefetch" href="/myBlog/assets/js/23.dcf10ae8.js"><link rel="prefetch" href="/myBlog/assets/js/24.11fec285.js"><link rel="prefetch" href="/myBlog/assets/js/25.881d833f.js"><link rel="prefetch" href="/myBlog/assets/js/26.eb4b4ccb.js"><link rel="prefetch" href="/myBlog/assets/js/27.cfb9ed1a.js"><link rel="prefetch" href="/myBlog/assets/js/28.a0543cbb.js"><link rel="prefetch" href="/myBlog/assets/js/29.108fed93.js"><link rel="prefetch" href="/myBlog/assets/js/3.65bc61ad.js"><link rel="prefetch" href="/myBlog/assets/js/30.7fd89beb.js"><link rel="prefetch" href="/myBlog/assets/js/31.6f6d1665.js"><link rel="prefetch" href="/myBlog/assets/js/32.d17c781a.js"><link rel="prefetch" href="/myBlog/assets/js/33.870559d3.js"><link rel="prefetch" href="/myBlog/assets/js/34.c4134c71.js"><link rel="prefetch" href="/myBlog/assets/js/35.ea5c5066.js"><link rel="prefetch" href="/myBlog/assets/js/36.5efe6a11.js"><link rel="prefetch" href="/myBlog/assets/js/37.acedbf8c.js"><link rel="prefetch" href="/myBlog/assets/js/38.25c7102d.js"><link rel="prefetch" href="/myBlog/assets/js/39.aef4dae8.js"><link rel="prefetch" href="/myBlog/assets/js/4.0f9bd42c.js"><link rel="prefetch" href="/myBlog/assets/js/40.d53b3dcb.js"><link rel="prefetch" href="/myBlog/assets/js/41.fde867e1.js"><link rel="prefetch" href="/myBlog/assets/js/42.ff56fa0e.js"><link rel="prefetch" href="/myBlog/assets/js/43.799135c3.js"><link rel="prefetch" href="/myBlog/assets/js/44.93d55849.js"><link rel="prefetch" href="/myBlog/assets/js/45.f9224797.js"><link rel="prefetch" href="/myBlog/assets/js/46.640fec35.js"><link rel="prefetch" href="/myBlog/assets/js/47.96549103.js"><link rel="prefetch" href="/myBlog/assets/js/48.f55c1d44.js"><link rel="prefetch" href="/myBlog/assets/js/49.07968936.js"><link rel="prefetch" href="/myBlog/assets/js/5.d29c8701.js"><link rel="prefetch" href="/myBlog/assets/js/50.505a942d.js"><link rel="prefetch" href="/myBlog/assets/js/51.a86f7b0a.js"><link rel="prefetch" href="/myBlog/assets/js/52.7e73fd5c.js"><link rel="prefetch" href="/myBlog/assets/js/53.a928b5fe.js"><link rel="prefetch" href="/myBlog/assets/js/54.955c509d.js"><link rel="prefetch" href="/myBlog/assets/js/55.9280b199.js"><link rel="prefetch" href="/myBlog/assets/js/56.9eab4289.js"><link rel="prefetch" href="/myBlog/assets/js/57.e1e0e62d.js"><link rel="prefetch" href="/myBlog/assets/js/59.c3343742.js"><link rel="prefetch" href="/myBlog/assets/js/6.72d74a23.js"><link rel="prefetch" href="/myBlog/assets/js/60.7af82386.js"><link rel="prefetch" href="/myBlog/assets/js/61.afe2a269.js"><link rel="prefetch" href="/myBlog/assets/js/62.f1bc8374.js"><link rel="prefetch" href="/myBlog/assets/js/63.302d16a1.js"><link rel="prefetch" href="/myBlog/assets/js/64.9900d08d.js"><link rel="prefetch" href="/myBlog/assets/js/65.3980c32c.js"><link rel="prefetch" href="/myBlog/assets/js/66.bb426dcd.js"><link rel="prefetch" href="/myBlog/assets/js/67.1fb2ed15.js"><link rel="prefetch" href="/myBlog/assets/js/68.aeed9b49.js"><link rel="prefetch" href="/myBlog/assets/js/69.4d57275f.js"><link rel="prefetch" href="/myBlog/assets/js/7.cf0b1ad7.js"><link rel="prefetch" href="/myBlog/assets/js/70.32ba860f.js"><link rel="prefetch" href="/myBlog/assets/js/71.a9f49cbf.js"><link rel="prefetch" href="/myBlog/assets/js/72.c41708d6.js"><link rel="prefetch" href="/myBlog/assets/js/73.a968df10.js"><link rel="prefetch" href="/myBlog/assets/js/74.0dd9d8d6.js"><link rel="prefetch" href="/myBlog/assets/js/75.9e7e9f53.js"><link rel="prefetch" href="/myBlog/assets/js/76.f82ec744.js"><link rel="prefetch" href="/myBlog/assets/js/77.9dcdd9c6.js"><link rel="prefetch" href="/myBlog/assets/js/78.73ee77dd.js"><link rel="prefetch" href="/myBlog/assets/js/79.b775bbbe.js"><link rel="prefetch" href="/myBlog/assets/js/8.083ce6e4.js"><link rel="prefetch" href="/myBlog/assets/js/80.606e1ba9.js"><link rel="prefetch" href="/myBlog/assets/js/81.d9348096.js"><link rel="prefetch" href="/myBlog/assets/js/82.1b3edc66.js"><link rel="prefetch" href="/myBlog/assets/js/83.2b9eb2d7.js"><link rel="prefetch" href="/myBlog/assets/js/84.cab6cb10.js"><link rel="prefetch" href="/myBlog/assets/js/85.6bedb1b1.js"><link rel="prefetch" href="/myBlog/assets/js/86.f984f235.js"><link rel="prefetch" href="/myBlog/assets/js/87.f4c8d863.js"><link rel="prefetch" href="/myBlog/assets/js/88.248bf2cb.js"><link rel="prefetch" href="/myBlog/assets/js/89.3013f51e.js"><link rel="prefetch" href="/myBlog/assets/js/9.a6060d28.js"><link rel="prefetch" href="/myBlog/assets/js/90.8efbecfe.js"><link rel="prefetch" href="/myBlog/assets/js/91.d816ee65.js"><link rel="prefetch" href="/myBlog/assets/js/92.715be383.js"><link rel="prefetch" href="/myBlog/assets/js/93.6f9a9a77.js"><link rel="prefetch" href="/myBlog/assets/js/94.b84df8a4.js"><link rel="prefetch" href="/myBlog/assets/js/95.3ce7437c.js"><link rel="prefetch" href="/myBlog/assets/js/96.aa264651.js"><link rel="prefetch" href="/myBlog/assets/js/97.5cad84be.js"><link rel="prefetch" href="/myBlog/assets/js/98.a9c2d241.js"><link rel="prefetch" href="/myBlog/assets/js/99.6941aebb.js">
+    <link rel="stylesheet" href="/myBlog/assets/css/0.styles.a8562fc9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myBlog/" class="home-link router-link-active"><!----> <span class="site-name">Hanhan 's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/myBlog/blog/" class="nav-link router-link-active">
+  blog
+</a></div><div class="nav-item"><a href="https://github.com/vimpare" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/myBlog/blog/" class="nav-link router-link-active">
+  blog
+</a></div><div class="nav-item"><a href="https://github.com/vimpare" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>vue</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/myBlog/blog/vue/" aria-current="page" class="sidebar-link">前言</a></li><li><a href="/myBlog/blog/vue/vuex.html" class="sidebar-link">vuex</a></li><li><a href="/myBlog/blog/vue/vue源码-1-丰富的选项合并策略.html" class="sidebar-link">vue源码-1-丰富的选项合并策略</a></li><li><a href="/myBlog/blog/vue/vue源码-2-基础的数据代理检测.html" class="sidebar-link">vue源码-2-基础的数据代理检测</a></li><li><a href="/myBlog/blog/vue/vue源码-3-实例挂载流程和模板编译.html" class="sidebar-link">vue源码-3-实例挂载流程和模板编译</a></li><li><a href="/myBlog/blog/vue/vue源码-4-完整渲染流程.html" class="sidebar-link">vue源码-4-完整渲染流程</a></li><li><a href="/myBlog/blog/vue/vue源码-5-组件基础.html" class="sidebar-link">vue源码-5-组件基础</a></li><li><a href="/myBlog/blog/vue/vue源码-7-响应式系统构建.html" class="sidebar-link">vue源码-7-响应式系统构建</a></li><li><a href="/myBlog/blog/vue/函数式组件.html" class="sidebar-link">函数式组件</a></li><li><a href="/myBlog/blog/vue/插槽.html" class="sidebar-link">插槽</a></li><li><a href="/myBlog/blog/vue/组件.html" class="active sidebar-link">组件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/myBlog/blog/vue/过滤器.html" class="sidebar-link">过滤器</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="组件基础"><a href="#组件基础" class="header-anchor">#</a> 组件基础</h3> <div class="language- extra-class"><pre class="language-text"><code>// 定义一个名为 button-counter 的新组件
+Vue.component('button-counter', {
+  data: function () {
+    return {
+      count: 0
+    }
+  },
+  template: '&lt;button v-on:click=&quot;count++&quot;&gt;You clicked me {{ count }} times.&lt;/button&gt;'
+})
+</code></pre></div><p>组件是可复用的 Vue 实例，且带有一个名字：在这个例子中是 <code>&lt;button-counter&gt;</code>。我们可以在一个通过 new Vue 创建的 Vue 根实例中，把这个组件作为自定义元素来使用：</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;div id=&quot;components-demo&quot;&gt;
+  &lt;button-counter&gt;&lt;/button-counter&gt;
+&lt;/div&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>new Vue({ el: '#components-demo' })
+</code></pre></div><p>因为组件是可复用的 <code>Vue</code> 实例，所以它们与 <code>new Vue</code> 接收相同的选项，例如 <code>data、computed、watch、methods</code> 以及生命周期钩子等。仅有的例外是像 <code>el</code> 这样根实例特有的选项。</p> <h4 id="data-必须是一个函数"><a href="#data-必须是一个函数" class="header-anchor">#</a> data 必须是一个函数</h4> <div class="language- extra-class"><pre class="language-text"><code>data: function () {
+  return {
+    count: 0
+  }
+}
+</code></pre></div><h3 id="组件注册"><a href="#组件注册" class="header-anchor">#</a> 组件注册</h3> <h4 id="全局注册"><a href="#全局注册" class="header-anchor">#</a> 全局注册</h4> <div class="language- extra-class"><pre class="language-text"><code>Vue.component('my-component-name', {
+  // ... 选项 ...
+})
+</code></pre></div><ul><li>注册之后可以用在任何新创建的 Vue 根实例 (new Vue) 的模板中</li> <li>组件在各自内部也都可以相互使用</li></ul> <h4 id="局部注册"><a href="#局部注册" class="header-anchor">#</a> 局部注册</h4> <p>在这些情况下，你可以通过一个普通的 JavaScript 对象来定义组件：</p> <div class="language- extra-class"><pre class="language-text"><code>var ComponentA = { /* ... */ }
+var ComponentB = { /* ... */ }
+var ComponentC = { /* ... */ }
+</code></pre></div><p>然后在 components 选项中定义你想要使用的组件：</p> <div class="language- extra-class"><pre class="language-text"><code>new Vue({
+  el: '#app',
+  components: {
+    'component-a': ComponentA,
+    'component-b': ComponentB
+  }
+})
+</code></pre></div><ul><li>局部注册的组件在其子组件中不可用</li></ul> <p>如果你希望 ComponentA 在 ComponentB 中可用，则你需要这样写：</p> <div class="language- extra-class"><pre class="language-text"><code>var ComponentA = { /* ... */ }
+
+var ComponentB = {
+  components: {
+    'component-a': ComponentA
+  },
+  // ...
+}
+</code></pre></div><h3 id="模块系统"><a href="#模块系统" class="header-anchor">#</a> 模块系统</h3> <p>使用了诸如 Babel 和 webpack 的模块系统;</p> <p>推荐创建一个 <code>components</code> 目录，并将每个组件放置在其各自的文件中。</p> <h4 id="在模块系统中局部注册"><a href="#在模块系统中局部注册" class="header-anchor">#</a> 在模块系统中局部注册</h4> <div class="language- extra-class"><pre class="language-text"><code>import ComponentA from './ComponentA'
+import ComponentC from './ComponentC'
+
+export default {
+  components: {
+    ComponentA,
+    ComponentC
+  },
+  // ...
+}
+</code></pre></div><h4 id="基础组件的自动化全局注册"><a href="#基础组件的自动化全局注册" class="header-anchor">#</a> 基础组件的自动化全局注册</h4> <p>可能你的许多组件只是包裹了一个输入框或按钮之类的元素，是相对通用的。我们有时候会把它们称为基础组件，它们会在各个组件中被频繁的用到</p> <p>如果你恰好使用了 webpack (或在内部使用了 webpack 的 Vue CLI 3+)，那么就可以使用 <code>require.context</code> 只全局注册这些非常通用的基础组件。</p> <div class="language- extra-class"><pre class="language-text"><code>import Vue from 'vue'
+import upperFirst from 'lodash/upperFirst'
+import camelCase from 'lodash/camelCase'
+
+const requireComponent = require.context(
+  // 其组件目录的相对路径
+  './components',
+  // 是否查询其子目录
+  false,
+  // 匹配基础组件文件名的正则表达式
+  /Base[A-Z]\w+\.(vue|js)$/
+)
+
+requireComponent.keys().forEach(fileName =&gt; {
+  // 获取组件配置
+  const componentConfig = requireComponent(fileName)
+
+  // 获取组件的 PascalCase 命名
+  const componentName = upperFirst(
+    camelCase(
+      // 获取和目录深度无关的文件名
+      fileName
+        .split('/')
+        .pop()
+        .replace(/\.\w+$/, '')
+    )
+  )
+
+  // 全局注册组件
+  Vue.component(
+    componentName,
+    // 如果这个组件选项是通过 `export default` 导出的，
+    // 那么就会优先使用 `.default`，
+    // 否则回退到使用模块的根。
+    componentConfig.default || componentConfig
+  )
+})
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/myBlog/blog/vue/插槽.html" class="prev">
+        插槽
+      </a></span> <span class="next"><a href="/myBlog/blog/vue/过滤器.html">
+        过滤器
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/myBlog/assets/js/app.7acaacf7.js" defer></script><script src="/myBlog/assets/js/2.403a57ea.js" defer></script><script src="/myBlog/assets/js/58.16f6a023.js" defer></script>
+  </body>
+</html>

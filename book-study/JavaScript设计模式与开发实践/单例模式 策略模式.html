@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>单例模式 | Hanhan &#39;s blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/myBlog/logo.png">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/myBlog/assets/css/0.styles.a8562fc9.css" as="style"><link rel="preload" href="/myBlog/assets/js/app.7acaacf7.js" as="script"><link rel="preload" href="/myBlog/assets/js/2.403a57ea.js" as="script"><link rel="preload" href="/myBlog/assets/js/102.686e45bd.js" as="script"><link rel="prefetch" href="/myBlog/assets/js/10.cca9e930.js"><link rel="prefetch" href="/myBlog/assets/js/100.3b6e92ce.js"><link rel="prefetch" href="/myBlog/assets/js/101.3c430b71.js"><link rel="prefetch" href="/myBlog/assets/js/103.eb7f172d.js"><link rel="prefetch" href="/myBlog/assets/js/104.47fd4f4b.js"><link rel="prefetch" href="/myBlog/assets/js/105.66ba238d.js"><link rel="prefetch" href="/myBlog/assets/js/106.08c6341e.js"><link rel="prefetch" href="/myBlog/assets/js/107.60957ee7.js"><link rel="prefetch" href="/myBlog/assets/js/108.8777724b.js"><link rel="prefetch" href="/myBlog/assets/js/109.86233dc9.js"><link rel="prefetch" href="/myBlog/assets/js/11.8e043ca9.js"><link rel="prefetch" href="/myBlog/assets/js/110.b3da631e.js"><link rel="prefetch" href="/myBlog/assets/js/111.9a57dcc6.js"><link rel="prefetch" href="/myBlog/assets/js/112.de925092.js"><link rel="prefetch" href="/myBlog/assets/js/113.9a4b5196.js"><link rel="prefetch" href="/myBlog/assets/js/114.c071d88c.js"><link rel="prefetch" href="/myBlog/assets/js/115.873990c4.js"><link rel="prefetch" href="/myBlog/assets/js/116.94230e27.js"><link rel="prefetch" href="/myBlog/assets/js/117.7c94500c.js"><link rel="prefetch" href="/myBlog/assets/js/118.d176d41d.js"><link rel="prefetch" href="/myBlog/assets/js/119.4e607ab0.js"><link rel="prefetch" href="/myBlog/assets/js/12.bcf5d818.js"><link rel="prefetch" href="/myBlog/assets/js/120.6120700c.js"><link rel="prefetch" href="/myBlog/assets/js/121.1f94c383.js"><link rel="prefetch" href="/myBlog/assets/js/122.f567164f.js"><link rel="prefetch" href="/myBlog/assets/js/13.4700c891.js"><link rel="prefetch" href="/myBlog/assets/js/14.ba843a60.js"><link rel="prefetch" href="/myBlog/assets/js/15.6b5a90df.js"><link rel="prefetch" href="/myBlog/assets/js/16.483b4768.js"><link rel="prefetch" href="/myBlog/assets/js/17.334378d7.js"><link rel="prefetch" href="/myBlog/assets/js/18.58052004.js"><link rel="prefetch" href="/myBlog/assets/js/19.84a36125.js"><link rel="prefetch" href="/myBlog/assets/js/20.b12f961b.js"><link rel="prefetch" href="/myBlog/assets/js/21.69fb09a0.js"><link rel="prefetch" href="/myBlog/assets/js/22.4142444a.js"><link rel="prefetch" href="/myBlog/assets/js/23.dcf10ae8.js"><link rel="prefetch" href="/myBlog/assets/js/24.11fec285.js"><link rel="prefetch" href="/myBlog/assets/js/25.881d833f.js"><link rel="prefetch" href="/myBlog/assets/js/26.eb4b4ccb.js"><link rel="prefetch" href="/myBlog/assets/js/27.cfb9ed1a.js"><link rel="prefetch" href="/myBlog/assets/js/28.a0543cbb.js"><link rel="prefetch" href="/myBlog/assets/js/29.108fed93.js"><link rel="prefetch" href="/myBlog/assets/js/3.65bc61ad.js"><link rel="prefetch" href="/myBlog/assets/js/30.7fd89beb.js"><link rel="prefetch" href="/myBlog/assets/js/31.6f6d1665.js"><link rel="prefetch" href="/myBlog/assets/js/32.d17c781a.js"><link rel="prefetch" href="/myBlog/assets/js/33.870559d3.js"><link rel="prefetch" href="/myBlog/assets/js/34.c4134c71.js"><link rel="prefetch" href="/myBlog/assets/js/35.ea5c5066.js"><link rel="prefetch" href="/myBlog/assets/js/36.5efe6a11.js"><link rel="prefetch" href="/myBlog/assets/js/37.acedbf8c.js"><link rel="prefetch" href="/myBlog/assets/js/38.25c7102d.js"><link rel="prefetch" href="/myBlog/assets/js/39.aef4dae8.js"><link rel="prefetch" href="/myBlog/assets/js/4.0f9bd42c.js"><link rel="prefetch" href="/myBlog/assets/js/40.d53b3dcb.js"><link rel="prefetch" href="/myBlog/assets/js/41.fde867e1.js"><link rel="prefetch" href="/myBlog/assets/js/42.ff56fa0e.js"><link rel="prefetch" href="/myBlog/assets/js/43.799135c3.js"><link rel="prefetch" href="/myBlog/assets/js/44.93d55849.js"><link rel="prefetch" href="/myBlog/assets/js/45.f9224797.js"><link rel="prefetch" href="/myBlog/assets/js/46.640fec35.js"><link rel="prefetch" href="/myBlog/assets/js/47.96549103.js"><link rel="prefetch" href="/myBlog/assets/js/48.f55c1d44.js"><link rel="prefetch" href="/myBlog/assets/js/49.07968936.js"><link rel="prefetch" href="/myBlog/assets/js/5.d29c8701.js"><link rel="prefetch" href="/myBlog/assets/js/50.505a942d.js"><link rel="prefetch" href="/myBlog/assets/js/51.a86f7b0a.js"><link rel="prefetch" href="/myBlog/assets/js/52.7e73fd5c.js"><link rel="prefetch" href="/myBlog/assets/js/53.a928b5fe.js"><link rel="prefetch" href="/myBlog/assets/js/54.955c509d.js"><link rel="prefetch" href="/myBlog/assets/js/55.9280b199.js"><link rel="prefetch" href="/myBlog/assets/js/56.9eab4289.js"><link rel="prefetch" href="/myBlog/assets/js/57.e1e0e62d.js"><link rel="prefetch" href="/myBlog/assets/js/58.16f6a023.js"><link rel="prefetch" href="/myBlog/assets/js/59.c3343742.js"><link rel="prefetch" href="/myBlog/assets/js/6.72d74a23.js"><link rel="prefetch" href="/myBlog/assets/js/60.7af82386.js"><link rel="prefetch" href="/myBlog/assets/js/61.afe2a269.js"><link rel="prefetch" href="/myBlog/assets/js/62.f1bc8374.js"><link rel="prefetch" href="/myBlog/assets/js/63.302d16a1.js"><link rel="prefetch" href="/myBlog/assets/js/64.9900d08d.js"><link rel="prefetch" href="/myBlog/assets/js/65.3980c32c.js"><link rel="prefetch" href="/myBlog/assets/js/66.bb426dcd.js"><link rel="prefetch" href="/myBlog/assets/js/67.1fb2ed15.js"><link rel="prefetch" href="/myBlog/assets/js/68.aeed9b49.js"><link rel="prefetch" href="/myBlog/assets/js/69.4d57275f.js"><link rel="prefetch" href="/myBlog/assets/js/7.cf0b1ad7.js"><link rel="prefetch" href="/myBlog/assets/js/70.32ba860f.js"><link rel="prefetch" href="/myBlog/assets/js/71.a9f49cbf.js"><link rel="prefetch" href="/myBlog/assets/js/72.c41708d6.js"><link rel="prefetch" href="/myBlog/assets/js/73.a968df10.js"><link rel="prefetch" href="/myBlog/assets/js/74.0dd9d8d6.js"><link rel="prefetch" href="/myBlog/assets/js/75.9e7e9f53.js"><link rel="prefetch" href="/myBlog/assets/js/76.f82ec744.js"><link rel="prefetch" href="/myBlog/assets/js/77.9dcdd9c6.js"><link rel="prefetch" href="/myBlog/assets/js/78.73ee77dd.js"><link rel="prefetch" href="/myBlog/assets/js/79.b775bbbe.js"><link rel="prefetch" href="/myBlog/assets/js/8.083ce6e4.js"><link rel="prefetch" href="/myBlog/assets/js/80.606e1ba9.js"><link rel="prefetch" href="/myBlog/assets/js/81.d9348096.js"><link rel="prefetch" href="/myBlog/assets/js/82.1b3edc66.js"><link rel="prefetch" href="/myBlog/assets/js/83.2b9eb2d7.js"><link rel="prefetch" href="/myBlog/assets/js/84.cab6cb10.js"><link rel="prefetch" href="/myBlog/assets/js/85.6bedb1b1.js"><link rel="prefetch" href="/myBlog/assets/js/86.f984f235.js"><link rel="prefetch" href="/myBlog/assets/js/87.f4c8d863.js"><link rel="prefetch" href="/myBlog/assets/js/88.248bf2cb.js"><link rel="prefetch" href="/myBlog/assets/js/89.3013f51e.js"><link rel="prefetch" href="/myBlog/assets/js/9.a6060d28.js"><link rel="prefetch" href="/myBlog/assets/js/90.8efbecfe.js"><link rel="prefetch" href="/myBlog/assets/js/91.d816ee65.js"><link rel="prefetch" href="/myBlog/assets/js/92.715be383.js"><link rel="prefetch" href="/myBlog/assets/js/93.6f9a9a77.js"><link rel="prefetch" href="/myBlog/assets/js/94.b84df8a4.js"><link rel="prefetch" href="/myBlog/assets/js/95.3ce7437c.js"><link rel="prefetch" href="/myBlog/assets/js/96.aa264651.js"><link rel="prefetch" href="/myBlog/assets/js/97.5cad84be.js"><link rel="prefetch" href="/myBlog/assets/js/98.a9c2d241.js"><link rel="prefetch" href="/myBlog/assets/js/99.6941aebb.js">
+    <link rel="stylesheet" href="/myBlog/assets/css/0.styles.a8562fc9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myBlog/" class="home-link router-link-active"><!----> <span class="site-name">Hanhan 's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/myBlog/blog/" class="nav-link">
+  blog
+</a></div><div class="nav-item"><a href="https://github.com/vimpare" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/myBlog/blog/" class="nav-link">
+  blog
+</a></div><div class="nav-item"><a href="https://github.com/vimpare" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>JavaScript设计模式与开发实践</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/myBlog/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/" aria-current="page" class="sidebar-link">前言</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/16th 状态模式.html" class="sidebar-link">16th 状态模式</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/1th.html" class="sidebar-link">1th</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/20th开放-封闭原则.html" class="sidebar-link">20th开放-封闭原则</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/22th代码重构.html" class="sidebar-link">22th代码重构</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/2th.html" class="sidebar-link">2th</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/3th闭包和高阶函数.html" class="sidebar-link">3th闭包和高阶函数</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/contents.html" class="sidebar-link">contents</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/代理模式 命令模式.html" class="sidebar-link">代理模式 命令模式</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/单例模式 策略模式.html" class="active sidebar-link">单例模式 策略模式</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/模板方法模式.html" class="sidebar-link">模板方法模式</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/组合模式.html" class="sidebar-link">组合模式</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/职责链模式.html" class="sidebar-link">职责链模式</a></li><li><a href="/myBlog/book-study/JavaScript设计模式与开发实践/订阅发布模式 迭代器模式.html" class="sidebar-link">订阅发布模式 迭代器模式</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="单例模式"><a href="#单例模式" class="header-anchor">#</a> 单例模式</h3> <p>单例模式的定义是：<code>保证一个类仅有一个实例，并提供一个访问它的全局访问点</code>。</p> <p>用一个变量来标志当前是否已经为某个类创建过对象，如果是，则在下一次获取该类的实例时，直接返回之前创建的对象</p> <p>以下几种方式可以相对降低全局变量带来的命名污染。
+1. 使用命名空间
+2. 使用闭包封装私有变量</p> <p><strong>惰性单例</strong>指的是在需要的时候才创建对象实例
+管理单例的逻辑其实是完全可以抽象出来的，这个逻辑始终是一样的：用一个变量来标志是否创建过对象，如果是，则在下次直接返回这个已经创建好的对象：</p> <div class="language- extra-class"><pre class="language-text"><code>var obj;
+if ( !obj ){ 
+      obj = xxx;
+}
+</code></pre></div><h3 id="策略模式"><a href="#策略模式" class="header-anchor">#</a> 策略模式</h3> <p>策略模式的定义是：<code>定义一系列的算法，把它们一个个封装起来，并且使它们可以相互替换</code>。
+策略模式的目的就是<code>将算法的使用与算法的实现分离开来</code>。</p> <p>策略模式利用组合、委托和多态等技术和思想，可以有效地避免多重条件选择语句。<br>
+•策略模式提供了对开放—封闭原则的完美支持，将算法封装在独立的strategy中，使得它们易于切换，易于理解，易于扩展。<br>
+•策略模式中的算法也可以复用在系统的其他地方，从而避免许多重复的复制粘贴工作。<br>
+•在策略模式中利用组合和委托来让Context拥有执行算法的能力，这也是继承的一种更轻便的替代方案。
+表单校验</p> <div class="language- extra-class"><pre class="language-text"><code>var Validator = function () {
+    this.cache = []; // 保存校验规则
+};
+Validator.prototype.add = function (dom, rule, errorMsg) {
+    var ary = rule.split(':'); // 把strategy和参数分开   
+    this.cache.push(function () { // 把校验的步骤用空函数包装起来，并且放入cache       
+        var strategy = ary.shift(); // 用户挑选的strategy        
+        ary.unshift(dom.value); // 把input的value添加进参数列表       
+        ary.push(errorMsg); // 把errorMsg添加进参数列表       
+        return strategies[strategy].apply(dom, ary);
+    });
+};
+Validator.prototype.start = function () {
+    for (var i = 0, validatorFunc; validatorFunc = this.cache[i++];) {
+        var msg = validatorFunc(); //开始校验，并取得校验后的返回信息     
+        if (msg) { // 如果有确切的返回值，说明校验没有通过
+            return msg;
+        }
+    }
+};
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>validator.add( registerForm.userName, 'isNonEmpty', '用户名不能为空' );// 改成：validator.add( registerForm.userName, 'minLength:10', '用户名长度不能小于10位' );
+</code></pre></div><p><strong>给某个文本输入框添加多种校验规则</strong></p> <div class="language- extra-class"><pre class="language-text"><code>&lt; html &gt; &lt; body &gt; &lt; form action = &quot;http:// xxx.com/register&quot;
+id = &quot;registerForm&quot;
+method = &quot;post&quot; &gt; 请输入用户名： &lt; input type = &quot;text&quot;
+name = &quot;userName&quot; / &gt; 请输入密码： &lt; input type = &quot;text&quot;
+name = &quot;password&quot; / &gt; 请输入手机号码： &lt; input type = &quot;text&quot;
+name = &quot;phoneNumber&quot; / &gt; &lt; button &gt; 提交 &lt; /button&gt;        &lt;/form &gt; &lt; script &gt; /***********************策略对象**************************/
+var strategies = {
+    isNonEmpty: function (value, errorMsg) {
+        if (value === '') {
+            return errorMsg;
+        }
+    },
+    minLength: function (value, length, errorMsg) {
+        if (value.length &lt; length) {
+            return errorMsg;
+        }
+    },
+    isMobile: function (value, errorMsg) {
+        if (!/(^1[3|5|8][0-9]{9}$)/.test(value)) {
+            return errorMsg;
+        }
+    }
+}; /***********************Validator 类**************************/
+var Validator = function () {
+    this.cache = [];
+};
+Validator.prototype.add = function (dom, rules) {
+    var self = this;
+    for (var i = 0, rule; rule = rules[i++];) {
+        (function (rule) {
+            var strategyAry = rule.strategy.split(':');
+            var errorMsg = rule.errorMsg;
+            self.cache.push(function () {
+                var strategy = strategyAry.shift();
+                strategyAry.unshift(dom.value);
+                strategyAry.push(errorMsg);
+                return strategies[strategy].apply(dom, strategyAry);
+            });
+        })(rule)
+    }
+};
+Validator.prototype.start = function () {
+    for (var i = 0, validatorFunc; validatorFunc = this.cache[i++];) {
+        var errorMsg = validatorFunc();
+        if (errorMsg) {
+            return errorMsg;
+        }
+    }
+}; /***********************客户调用代码**************************/
+var registerForm = document.getElementById('registerForm');
+var validataFunc = function () {
+    var validator = new Validator();
+    validator.add(registerForm.userName, [{
+            strategy: 'isNonEmpty',
+            errorMsg: '用户名不能为空'
+        }, {
+            strategy: 'minLength:10',
+            errorMsg: '用户名长度不能小于10位'
+        }]);
+    validator.add(registerForm.password, [{
+            strategy: 'minLength:6',
+            errorMsg: '密码长度不能小于6位'
+        }]);
+    validator.add(registerForm.phoneNumber, [{
+            strategy: 'isMobile',
+            errorMsg: '手机号码格式不正确'
+        }]);
+    var errorMsg = validator.start();
+    return errorMsg;
+}
+registerForm.onsubmit = function () {
+    var errorMsg = validataFunc();
+    if (errorMsg) {
+        alert(errorMsg);
+        return false;
+    }
+}; &lt; /script&gt;    &lt;/body &gt; &lt; /html&gt;
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/myBlog/book-study/JavaScript设计模式与开发实践/代理模式 命令模式.html" class="prev">
+        代理模式 命令模式
+      </a></span> <span class="next"><a href="/myBlog/book-study/JavaScript设计模式与开发实践/模板方法模式.html">
+        模板方法模式
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/myBlog/assets/js/app.7acaacf7.js" defer></script><script src="/myBlog/assets/js/2.403a57ea.js" defer></script><script src="/myBlog/assets/js/102.686e45bd.js" defer></script>
+  </body>
+</html>

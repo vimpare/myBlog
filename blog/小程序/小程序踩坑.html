@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>小程序:chooseimage成功会执行onHide和onShow | Hanhan &#39;s blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/myBlog/logo.png">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/myBlog/assets/css/0.styles.a8562fc9.css" as="style"><link rel="preload" href="/myBlog/assets/js/app.7acaacf7.js" as="script"><link rel="preload" href="/myBlog/assets/js/2.403a57ea.js" as="script"><link rel="preload" href="/myBlog/assets/js/82.1b3edc66.js" as="script"><link rel="prefetch" href="/myBlog/assets/js/10.cca9e930.js"><link rel="prefetch" href="/myBlog/assets/js/100.3b6e92ce.js"><link rel="prefetch" href="/myBlog/assets/js/101.3c430b71.js"><link rel="prefetch" href="/myBlog/assets/js/102.686e45bd.js"><link rel="prefetch" href="/myBlog/assets/js/103.eb7f172d.js"><link rel="prefetch" href="/myBlog/assets/js/104.47fd4f4b.js"><link rel="prefetch" href="/myBlog/assets/js/105.66ba238d.js"><link rel="prefetch" href="/myBlog/assets/js/106.08c6341e.js"><link rel="prefetch" href="/myBlog/assets/js/107.60957ee7.js"><link rel="prefetch" href="/myBlog/assets/js/108.8777724b.js"><link rel="prefetch" href="/myBlog/assets/js/109.86233dc9.js"><link rel="prefetch" href="/myBlog/assets/js/11.8e043ca9.js"><link rel="prefetch" href="/myBlog/assets/js/110.b3da631e.js"><link rel="prefetch" href="/myBlog/assets/js/111.9a57dcc6.js"><link rel="prefetch" href="/myBlog/assets/js/112.de925092.js"><link rel="prefetch" href="/myBlog/assets/js/113.9a4b5196.js"><link rel="prefetch" href="/myBlog/assets/js/114.c071d88c.js"><link rel="prefetch" href="/myBlog/assets/js/115.873990c4.js"><link rel="prefetch" href="/myBlog/assets/js/116.94230e27.js"><link rel="prefetch" href="/myBlog/assets/js/117.7c94500c.js"><link rel="prefetch" href="/myBlog/assets/js/118.d176d41d.js"><link rel="prefetch" href="/myBlog/assets/js/119.4e607ab0.js"><link rel="prefetch" href="/myBlog/assets/js/12.bcf5d818.js"><link rel="prefetch" href="/myBlog/assets/js/120.6120700c.js"><link rel="prefetch" href="/myBlog/assets/js/121.1f94c383.js"><link rel="prefetch" href="/myBlog/assets/js/122.f567164f.js"><link rel="prefetch" href="/myBlog/assets/js/13.4700c891.js"><link rel="prefetch" href="/myBlog/assets/js/14.ba843a60.js"><link rel="prefetch" href="/myBlog/assets/js/15.6b5a90df.js"><link rel="prefetch" href="/myBlog/assets/js/16.483b4768.js"><link rel="prefetch" href="/myBlog/assets/js/17.334378d7.js"><link rel="prefetch" href="/myBlog/assets/js/18.58052004.js"><link rel="prefetch" href="/myBlog/assets/js/19.84a36125.js"><link rel="prefetch" href="/myBlog/assets/js/20.b12f961b.js"><link rel="prefetch" href="/myBlog/assets/js/21.69fb09a0.js"><link rel="prefetch" href="/myBlog/assets/js/22.4142444a.js"><link rel="prefetch" href="/myBlog/assets/js/23.dcf10ae8.js"><link rel="prefetch" href="/myBlog/assets/js/24.11fec285.js"><link rel="prefetch" href="/myBlog/assets/js/25.881d833f.js"><link rel="prefetch" href="/myBlog/assets/js/26.eb4b4ccb.js"><link rel="prefetch" href="/myBlog/assets/js/27.cfb9ed1a.js"><link rel="prefetch" href="/myBlog/assets/js/28.a0543cbb.js"><link rel="prefetch" href="/myBlog/assets/js/29.108fed93.js"><link rel="prefetch" href="/myBlog/assets/js/3.65bc61ad.js"><link rel="prefetch" href="/myBlog/assets/js/30.7fd89beb.js"><link rel="prefetch" href="/myBlog/assets/js/31.6f6d1665.js"><link rel="prefetch" href="/myBlog/assets/js/32.d17c781a.js"><link rel="prefetch" href="/myBlog/assets/js/33.870559d3.js"><link rel="prefetch" href="/myBlog/assets/js/34.c4134c71.js"><link rel="prefetch" href="/myBlog/assets/js/35.ea5c5066.js"><link rel="prefetch" href="/myBlog/assets/js/36.5efe6a11.js"><link rel="prefetch" href="/myBlog/assets/js/37.acedbf8c.js"><link rel="prefetch" href="/myBlog/assets/js/38.25c7102d.js"><link rel="prefetch" href="/myBlog/assets/js/39.aef4dae8.js"><link rel="prefetch" href="/myBlog/assets/js/4.0f9bd42c.js"><link rel="prefetch" href="/myBlog/assets/js/40.d53b3dcb.js"><link rel="prefetch" href="/myBlog/assets/js/41.fde867e1.js"><link rel="prefetch" href="/myBlog/assets/js/42.ff56fa0e.js"><link rel="prefetch" href="/myBlog/assets/js/43.799135c3.js"><link rel="prefetch" href="/myBlog/assets/js/44.93d55849.js"><link rel="prefetch" href="/myBlog/assets/js/45.f9224797.js"><link rel="prefetch" href="/myBlog/assets/js/46.640fec35.js"><link rel="prefetch" href="/myBlog/assets/js/47.96549103.js"><link rel="prefetch" href="/myBlog/assets/js/48.f55c1d44.js"><link rel="prefetch" href="/myBlog/assets/js/49.07968936.js"><link rel="prefetch" href="/myBlog/assets/js/5.d29c8701.js"><link rel="prefetch" href="/myBlog/assets/js/50.505a942d.js"><link rel="prefetch" href="/myBlog/assets/js/51.a86f7b0a.js"><link rel="prefetch" href="/myBlog/assets/js/52.7e73fd5c.js"><link rel="prefetch" href="/myBlog/assets/js/53.a928b5fe.js"><link rel="prefetch" href="/myBlog/assets/js/54.955c509d.js"><link rel="prefetch" href="/myBlog/assets/js/55.9280b199.js"><link rel="prefetch" href="/myBlog/assets/js/56.9eab4289.js"><link rel="prefetch" href="/myBlog/assets/js/57.e1e0e62d.js"><link rel="prefetch" href="/myBlog/assets/js/58.16f6a023.js"><link rel="prefetch" href="/myBlog/assets/js/59.c3343742.js"><link rel="prefetch" href="/myBlog/assets/js/6.72d74a23.js"><link rel="prefetch" href="/myBlog/assets/js/60.7af82386.js"><link rel="prefetch" href="/myBlog/assets/js/61.afe2a269.js"><link rel="prefetch" href="/myBlog/assets/js/62.f1bc8374.js"><link rel="prefetch" href="/myBlog/assets/js/63.302d16a1.js"><link rel="prefetch" href="/myBlog/assets/js/64.9900d08d.js"><link rel="prefetch" href="/myBlog/assets/js/65.3980c32c.js"><link rel="prefetch" href="/myBlog/assets/js/66.bb426dcd.js"><link rel="prefetch" href="/myBlog/assets/js/67.1fb2ed15.js"><link rel="prefetch" href="/myBlog/assets/js/68.aeed9b49.js"><link rel="prefetch" href="/myBlog/assets/js/69.4d57275f.js"><link rel="prefetch" href="/myBlog/assets/js/7.cf0b1ad7.js"><link rel="prefetch" href="/myBlog/assets/js/70.32ba860f.js"><link rel="prefetch" href="/myBlog/assets/js/71.a9f49cbf.js"><link rel="prefetch" href="/myBlog/assets/js/72.c41708d6.js"><link rel="prefetch" href="/myBlog/assets/js/73.a968df10.js"><link rel="prefetch" href="/myBlog/assets/js/74.0dd9d8d6.js"><link rel="prefetch" href="/myBlog/assets/js/75.9e7e9f53.js"><link rel="prefetch" href="/myBlog/assets/js/76.f82ec744.js"><link rel="prefetch" href="/myBlog/assets/js/77.9dcdd9c6.js"><link rel="prefetch" href="/myBlog/assets/js/78.73ee77dd.js"><link rel="prefetch" href="/myBlog/assets/js/79.b775bbbe.js"><link rel="prefetch" href="/myBlog/assets/js/8.083ce6e4.js"><link rel="prefetch" href="/myBlog/assets/js/80.606e1ba9.js"><link rel="prefetch" href="/myBlog/assets/js/81.d9348096.js"><link rel="prefetch" href="/myBlog/assets/js/83.2b9eb2d7.js"><link rel="prefetch" href="/myBlog/assets/js/84.cab6cb10.js"><link rel="prefetch" href="/myBlog/assets/js/85.6bedb1b1.js"><link rel="prefetch" href="/myBlog/assets/js/86.f984f235.js"><link rel="prefetch" href="/myBlog/assets/js/87.f4c8d863.js"><link rel="prefetch" href="/myBlog/assets/js/88.248bf2cb.js"><link rel="prefetch" href="/myBlog/assets/js/89.3013f51e.js"><link rel="prefetch" href="/myBlog/assets/js/9.a6060d28.js"><link rel="prefetch" href="/myBlog/assets/js/90.8efbecfe.js"><link rel="prefetch" href="/myBlog/assets/js/91.d816ee65.js"><link rel="prefetch" href="/myBlog/assets/js/92.715be383.js"><link rel="prefetch" href="/myBlog/assets/js/93.6f9a9a77.js"><link rel="prefetch" href="/myBlog/assets/js/94.b84df8a4.js"><link rel="prefetch" href="/myBlog/assets/js/95.3ce7437c.js"><link rel="prefetch" href="/myBlog/assets/js/96.aa264651.js"><link rel="prefetch" href="/myBlog/assets/js/97.5cad84be.js"><link rel="prefetch" href="/myBlog/assets/js/98.a9c2d241.js"><link rel="prefetch" href="/myBlog/assets/js/99.6941aebb.js">
+    <link rel="stylesheet" href="/myBlog/assets/css/0.styles.a8562fc9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myBlog/" class="home-link router-link-active"><!----> <span class="site-name">Hanhan 's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/myBlog/blog/" class="nav-link router-link-active">
+  blog
+</a></div><div class="nav-item"><a href="https://github.com/vimpare" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/myBlog/blog/" class="nav-link router-link-active">
+  blog
+</a></div><div class="nav-item"><a href="https://github.com/vimpare" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>小程序</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/myBlog/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" aria-current="page" class="sidebar-link">前言</a></li><li><a href="/myBlog/blog/小程序/IntersectionObserver.html" class="sidebar-link">IntersectionObserver</a></li><li><a href="/myBlog/blog/小程序/WxValidate - 表单验证.html" class="sidebar-link">WxValidate - 表单验证</a></li><li><a href="/myBlog/blog/小程序/wxs及左滑删除.html" class="sidebar-link">wxs及左滑删除</a></li><li><a href="/myBlog/blog/小程序/小程序webview.html" class="sidebar-link">小程序webview</a></li><li><a href="/myBlog/blog/小程序/小程序原理.html" class="sidebar-link">小程序原理</a></li><li><a href="/myBlog/blog/小程序/小程序踩坑.html" class="active sidebar-link">小程序踩坑</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#小程序-chooseimage成功会执行onhide和onshow" class="sidebar-link">小程序:chooseimage成功会执行onHide和onShow</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#小程序实现图片放大预览功能" class="sidebar-link">小程序实现图片放大预览功能</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#todatestring" class="sidebar-link">toDateString()</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#上传文件" class="sidebar-link">上传文件</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#小程序返回上一页携带参数" class="sidebar-link">小程序返回上一页携带参数</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#小程序左滑删除" class="sidebar-link">小程序左滑删除：</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#保存base图片到本地相册" class="sidebar-link">保存base图片到本地相册</a></li><li class="sidebar-sub-header"><a href="/myBlog/blog/小程序/小程序踩坑.html#去除按钮默认样式" class="sidebar-link">去除按钮默认样式</a></li></ul></li><li><a href="/myBlog/blog/小程序/左滑删除2.html" class="sidebar-link">左滑删除2</a></li><li><a href="/myBlog/blog/小程序/微信小程序 - 使用npm.html" class="sidebar-link">微信小程序 - 使用npm</a></li><li><a href="/myBlog/blog/小程序/微信小程序与H5的区别.html" class="sidebar-link">微信小程序与H5的区别</a></li><li><a href="/myBlog/blog/小程序/数据请求.html" class="sidebar-link">数据请求</a></li><li><a href="/myBlog/blog/小程序/新增页面间通信接口.html" class="sidebar-link">新增页面间通信接口</a></li><li><a href="/myBlog/blog/小程序/生命周期.html" class="sidebar-link">生命周期</a></li><li><a href="/myBlog/blog/小程序/相关文件类型.html" class="sidebar-link">相关文件类型</a></li><li><a href="/myBlog/blog/小程序/组件间关系.html" class="sidebar-link">组件间关系</a></li><li><a href="/myBlog/blog/小程序/自定义组件.html" class="sidebar-link">自定义组件</a></li><li><a href="/myBlog/blog/小程序/页面事件处理函数.html" class="sidebar-link">页面事件处理函数</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="小程序-chooseimage成功会执行onhide和onshow"><a href="#小程序-chooseimage成功会执行onhide和onshow" class="header-anchor">#</a> 小程序:<code>chooseimage</code>成功会执行<code>onHide</code>和<code>onShow</code></h2> <div class="language- extra-class"><pre><code>`chooseImage`的时候是进入了手机的原生组件阶段，小程序是会触发 onhide的生命周期，再次回到小程序的时候就触发 onshow的生命周期
+</code></pre></div><h2 id="小程序实现图片放大预览功能"><a href="#小程序实现图片放大预览功能" class="header-anchor">#</a> 小程序实现图片放大预览功能</h2> <p>实现方式：使用微信小程序图片预览接口</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1.</span><span class="token function">给图片添加一个点击事件</span><span class="token punctuation">(</span>imgYu<span class="token punctuation">)</span>
+<span class="token number">2.</span> wx<span class="token punctuation">.</span><span class="token function">previewImage</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  current<span class="token operator">:</span> src<span class="token punctuation">,</span> <span class="token comment">// 当前显示图片的http链接</span>
+  urls<span class="token operator">:</span> imgList <span class="token comment">// 需要预览的图片http链接列表</span>
+ <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="todatestring"><a href="#todatestring" class="header-anchor">#</a> toDateString()</h2> <p><strong>微信小程序设置 hover-class，实现点击变色效果</strong></p> <p>目前支持 hover-class 属性的组件有三个：view、button、navigator。</p> <p>不支持 hover-class 属性的组件，同时也不支持 hover-stop-propagation、hover-start-time、hover-stay-time 这三个属性。</p> <p>当 hover-class 的值为 none 时，组件上不会有任何点击态效果。</p> <h2 id="上传文件"><a href="#上传文件" class="header-anchor">#</a> 上传文件</h2> <div class="language-js extra-class"><pre class="language-js"><code>   wx<span class="token punctuation">.</span><span class="token function">uploadFile</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        url<span class="token operator">:</span> _url<span class="token punctuation">,</span>
+        filePath<span class="token operator">:</span> imgSrc<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token operator">:</span> <span class="token string">'file1'</span><span class="token punctuation">,</span>
+        formData<span class="token operator">:</span> _data<span class="token punctuation">,</span>
+        <span class="token function-variable function">success</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">fail</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">complete</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p><strong>因为微信小程序的wxml和js的内部实现机制是分开编译的。所以在wxml是没办法调用js的函数的。这会导致WXML缺少一个我们常用的功能，那就是没有办法在视图层对数据进行格式化处理。比如我们从后端获取到一个包含了时间戳数据的数组，然后需要在界面上把这些日期都格式化显示为2017-01-01这种格式的日期形式，在Vue, Angular之类的前端Web框架中，一般在视图层都提供了如filter之类相应比较好用的方案。vue是没有这些方法的。但是小程序推出了wxs类型文件就是解决这类问题的。</strong></p> <p>例如本来获取日期，我们原本是调用new Date()的。在wxs是不支持的，但是小程序提供了一个全局函数getDate(）代替。
+还有，wxs不支持任何ES6的语法。什么let，Map()都用不了；</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>wxs module<span class="token operator">=</span><span class="token string">&quot;tool2&quot;</span><span class="token operator">&gt;</span>
+      <span class="token keyword">function</span> <span class="token function">_formatNum</span><span class="token punctuation">(</span><span class="token parameter">n</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        n <span class="token operator">=</span> n<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> n<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">?</span> n <span class="token operator">:</span> <span class="token string">'0'</span> <span class="token operator">+</span> n
+      <span class="token punctuation">}</span>
+      <span class="token keyword">var</span> <span class="token function-variable function">formatTimeCom</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>number<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">var</span> _date <span class="token operator">=</span> <span class="token function">getDate</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token keyword">var</span> _year <span class="token operator">=</span> _date<span class="token punctuation">.</span><span class="token function">getFullYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            _month <span class="token operator">=</span> _date<span class="token punctuation">.</span><span class="token function">getMonth</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span>
+            _day <span class="token operator">=</span> _date<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            _hour <span class="token operator">=</span> _date<span class="token punctuation">.</span><span class="token function">getHours</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            _minute <span class="token operator">=</span> _date<span class="token punctuation">.</span><span class="token function">getMinutes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            _second <span class="token operator">=</span> _date<span class="token punctuation">.</span><span class="token function">getSeconds</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token keyword">return</span> _year <span class="token operator">+</span> <span class="token string">'.'</span> <span class="token operator">+</span> <span class="token function">_formatNum</span><span class="token punctuation">(</span>_month<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">'.'</span> <span class="token operator">+</span> <span class="token function">_formatNum</span><span class="token punctuation">(</span>_day<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">' '</span> <span class="token operator">+</span> <span class="token function">_formatNum</span><span class="token punctuation">(</span>_hour<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">':'</span> <span class="token operator">+</span> <span class="token function">_formatNum</span><span class="token punctuation">(</span>_minute<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">':'</span> <span class="token operator">+</span> <span class="token function">_formatNum</span><span class="token punctuation">(</span>_second<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+
+
+
+
+      module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        formatTimeCom<span class="token operator">:</span> formatTimeCom<span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>wxs<span class="token operator">&gt;</span>
+
+</code></pre></div><h2 id="小程序返回上一页携带参数"><a href="#小程序返回上一页携带参数" class="header-anchor">#</a> 小程序返回上一页携带参数</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> pages <span class="token operator">=</span> <span class="token function">getCurrentPages</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> prevPage <span class="token operator">=</span> pages<span class="token punctuation">[</span>pages<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    prevPage<span class="token punctuation">.</span><span class="token function">setData</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      classifyName<span class="token operator">:</span> name
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    wx<span class="token punctuation">.</span><span class="token function">navigateBack</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      delta<span class="token operator">:</span> <span class="token number">1</span>
+
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="小程序左滑删除"><a href="#小程序左滑删除" class="header-anchor">#</a> 小程序左滑删除：</h2> <p>wxml:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;view class='news-item bgf' wx:for=&quot;{{list}}&quot; wx:key=&quot;{{index}}&quot;&gt;
+  &lt;view class=' flex news-item1 bgf' bindtouchstart=&quot;touchS&quot; bindtouchmove=&quot;touchM&quot; bindtouchend=&quot;touchE&quot; data-index=&quot;{{index}}&quot; style=&quot;{{item.txtStyle}}&quot;&gt;&lt;/view&gt;
+  &lt;view class='del-news' data-index=&quot;{{index}}&quot; bindtap=&quot;delItem&quot; data-msgid=&quot;{{item.msgId}}&quot;&gt;删除&lt;/view&gt;
+&lt;/view&gt;
+</code></pre></div><p>js:</p> <div class="language- extra-class"><pre class="language-text"><code> touchS: function(e) {
+    if (e.touches.length == 1) {
+      this.setData({
+        //设置触摸起始点水平方向位置
+        startX: e.touches[0].clientX
+      });
+      var list = this.data.list;
+      list.map(function(item, i) {
+        item.txtStyle = &quot;left:0px&quot;;
+      })
+      this.setData({
+        list: list
+      })
+    }
+  },
+  touchM: function(e) {
+    if (e.touches.length == 1) {
+      //手指移动时水平方向位置
+      var moveX = e.touches[0].clientX;
+      //手指起始点位置与移动期间的差值
+      var disX = this.data.startX - moveX;
+      var delBtnWidth = this.data.delBtnWidth;
+      var txtStyle = &quot;&quot;;
+      if (disX == 0 || disX &lt; 0) { //如果移动距离小于等于0，说明向右滑动，文本层位置不变
+        txtStyle = &quot;left:0px&quot;;
+      } else if (disX &gt; 0) { //移动距离大于0，文本层left值等于手指移动距离
+        txtStyle = &quot;left:-&quot; + disX + &quot;px&quot;;
+        if (disX &gt;= delBtnWidth) {
+          //控制手指移动距离最大值为删除按钮的宽度
+          txtStyle = &quot;left:-&quot; + delBtnWidth + &quot;px&quot;;
+        }
+      }
+      //获取手指触摸的是哪一项
+      var index = e.currentTarget.dataset.index;
+      var list = this.data.list;
+      list[index].txtStyle = txtStyle;
+      //更新列表的状态
+      this.setData({
+        list: list
+      });
+    }
+  },
+  touchE: function(e) {
+    if (e.changedTouches.length == 1) {
+      //手指移动结束后水平位置
+      var endX = e.changedTouches[0].clientX;
+      //触摸开始与结束，手指移动的距离
+      var disX = this.data.startX - endX;
+      var delBtnWidth = this.data.delBtnWidth;
+      //如果距离小于删除按钮的1/2，不显示删除按钮
+      var txtStyle = disX &gt; delBtnWidth / 2 ? &quot;left:-&quot; + delBtnWidth + &quot;px&quot; : &quot;left:0px&quot;;
+      //获取手指触摸的是哪一项
+      var index = e.currentTarget.dataset.index;
+      var list = this.data.list;
+      list[index].txtStyle = txtStyle;
+      //更新列表的状态
+      this.setData({
+        list: list
+      });
+    }
+  },
+  //获取元素自适应后的实际宽度
+  getEleWidth: function(w) {
+    var real = 0;
+    try {
+      var res = wx.getSystemInfoSync().windowWidth;
+      var scale = (750 / 2) / (w / 2); //以宽度750px设计稿做宽度的自适应
+      real = Math.floor(res / scale);
+      return real;
+    } catch (e) {
+      return false;
+      // Do something when catch error
+    }
+  },
+  initEleWidth: function() {
+    var delBtnWidth = this.getEleWidth(this.data.delBtnWidth);
+    this.setData({
+      delBtnWidth: delBtnWidth
+    });
+  },
+</code></pre></div><h2 id="保存base图片到本地相册"><a href="#保存base图片到本地相册" class="header-anchor">#</a> 保存base图片到本地相册</h2> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token keyword">var</span> aa <span class="token operator">=</span> wx<span class="token punctuation">.</span><span class="token function">getFileSystemManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> timestamp <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> _filePath <span class="token operator">=</span> wx<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">USER_DATA_PATH</span> <span class="token operator">+</span> <span class="token string">'/'</span> <span class="token operator">+</span> timestamp <span class="token operator">+</span> <span class="token string">'.png'</span><span class="token punctuation">;</span>
+  aa<span class="token punctuation">.</span><span class="token function">writeFile</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    filePath<span class="token operator">:</span> _filePath<span class="token punctuation">,</span>
+    data<span class="token operator">:</span> srcData<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">22</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    encoding<span class="token operator">:</span> <span class="token string">'base64'</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">success</span><span class="token operator">:</span> <span class="token parameter">res</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      that<span class="token punctuation">.</span><span class="token function">setData</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        saveImgSrc<span class="token operator">:</span> _filePath
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      that<span class="token punctuation">.</span><span class="token function">saveToPhoneFn</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token function-variable function">fail</span><span class="token operator">:</span> <span class="token parameter">err</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code> <span class="token comment">//保存海报</span>
+ <span class="token function-variable function">saveToPhone</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   <span class="token comment">//获取相册授权</span>
+   <span class="token keyword">let</span> imgSrc <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>saveImgSrc<span class="token punctuation">;</span>
+  
+   wx<span class="token punctuation">.</span><span class="token function">showLoading</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+     title<span class="token operator">:</span> <span class="token string">'保存中...'</span><span class="token punctuation">,</span>
+     mask<span class="token operator">:</span><span class="token boolean">true</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token comment">//图片保存到本地</span>
+   wx<span class="token punctuation">.</span><span class="token function">saveImageToPhotosAlbum</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+     filePath<span class="token operator">:</span> imgSrc<span class="token punctuation">,</span>
+     <span class="token function-variable function">success</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span>
+       wx<span class="token punctuation">.</span><span class="token function">hideLoading</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+       wx<span class="token punctuation">.</span><span class="token function">showToast</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+         title<span class="token operator">:</span> <span class="token string">'保存成功'</span><span class="token punctuation">,</span>
+         icon<span class="token operator">:</span> <span class="token string">'success'</span><span class="token punctuation">,</span>
+         duration<span class="token operator">:</span> <span class="token number">2000</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+     <span class="token function-variable function">fail</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+       <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">.</span>errMsg <span class="token operator">===</span> <span class="token string">&quot;saveImageToPhotosAlbum:fail auth deny&quot;</span> <span class="token operator">||</span> err<span class="token punctuation">.</span>errMsg <span class="token operator">===</span> <span class="token string">&quot;saveImageToPhotosAlbum:fail:auth denied&quot;</span> <span class="token operator">||</span> err<span class="token punctuation">.</span>errMsg <span class="token operator">===</span> <span class="token string">&quot;saveImageToPhotosAlbum:fail authorize no response&quot;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+         console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;当初用户拒绝，再次发起授权&quot;</span><span class="token punctuation">)</span>
+         wx<span class="token punctuation">.</span><span class="token function">showModal</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+           title<span class="token operator">:</span> <span class="token string">'提示'</span><span class="token punctuation">,</span>
+           content<span class="token operator">:</span> <span class="token string">'需要您授权保存相册'</span><span class="token punctuation">,</span>
+           showCancel<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+           <span class="token function-variable function">success</span><span class="token operator">:</span> <span class="token parameter">modalSuccess</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+             wx<span class="token punctuation">.</span><span class="token function">openSetting</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+               <span class="token function">success</span><span class="token punctuation">(</span><span class="token parameter">settingdata</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;settingdata&quot;</span><span class="token punctuation">,</span> settingdata<span class="token punctuation">)</span>
+                 <span class="token keyword">if</span> <span class="token punctuation">(</span>settingdata<span class="token punctuation">.</span>authSetting<span class="token punctuation">[</span><span class="token string">'scope.writePhotosAlbum'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                   wx<span class="token punctuation">.</span><span class="token function">showModal</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                     title<span class="token operator">:</span> <span class="token string">'提示'</span><span class="token punctuation">,</span>
+                     content<span class="token operator">:</span> <span class="token string">'获取权限成功,再次点击保存图片即可保存'</span><span class="token punctuation">,</span>
+                     showCancel<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+                 <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                   wx<span class="token punctuation">.</span><span class="token function">showModal</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                     title<span class="token operator">:</span> <span class="token string">'提示'</span><span class="token punctuation">,</span>
+                     content<span class="token operator">:</span> <span class="token string">'获取权限失败，将无法保存到相册哦~'</span><span class="token punctuation">,</span>
+                     showCancel<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+                 <span class="token punctuation">}</span>
+               <span class="token punctuation">}</span><span class="token punctuation">,</span>
+               <span class="token function">fail</span><span class="token punctuation">(</span><span class="token parameter">failData</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;failData&quot;</span><span class="token punctuation">,</span> failData<span class="token punctuation">)</span>
+               <span class="token punctuation">}</span><span class="token punctuation">,</span>
+               <span class="token function">complete</span><span class="token punctuation">(</span><span class="token parameter">finishData</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;finishData&quot;</span><span class="token punctuation">,</span> finishData<span class="token punctuation">)</span>
+               <span class="token punctuation">}</span>
+             <span class="token punctuation">}</span><span class="token punctuation">)</span>
+           <span class="token punctuation">}</span>
+         <span class="token punctuation">}</span><span class="token punctuation">)</span>
+       <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+     <span class="token function">complete</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span><span class="token punctuation">;</span>
+       wx<span class="token punctuation">.</span><span class="token function">hideLoading</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+     <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   
+ <span class="token punctuation">}</span>
+</code></pre></div><h2 id="去除按钮默认样式"><a href="#去除按钮默认样式" class="header-anchor">#</a> 去除按钮默认样式</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">//去除默认圆角</span>
+button<span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//去除默认边框</span>
+button<span class="token punctuation">{</span>
+border<span class="token operator">:</span><span class="token number">0</span>
+<span class="token punctuation">}</span>
+ 
+button<span class="token operator">:</span><span class="token operator">:</span>after<span class="token punctuation">{</span>
+ 
+border<span class="token operator">:</span>none<span class="token punctuation">;</span>
+ 
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/myBlog/blog/小程序/小程序原理.html" class="prev">
+        小程序原理
+      </a></span> <span class="next"><a href="/myBlog/blog/小程序/左滑删除2.html">
+        左滑删除2
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/myBlog/assets/js/app.7acaacf7.js" defer></script><script src="/myBlog/assets/js/2.403a57ea.js" defer></script><script src="/myBlog/assets/js/82.1b3edc66.js" defer></script>
+  </body>
+</html>
