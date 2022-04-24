@@ -16,11 +16,717 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "我的主页",
+        "tagline": "My homepage",
+        "actionText": "技术文档 →",
+        "actionLink": "/blog/",
+        "footer": "Hanhan的个人博客"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-256766a4",
+      "path": "/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/browser/Jetbrains%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E9%87%8D%E7%BD%AE%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.html",
+      "relativePath": "blog/browser/Jetbrains系列产品重置试用方法.md",
+      "key": "v-07b06ab5",
+      "path": "/blog/browser/Jetbrains%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E9%87%8D%E7%BD%AE%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.html"
+    },
+    {
+      "title": "谷歌浏览器",
+      "frontmatter": {},
+      "regularPath": "/blog/browser/google%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F%E4%BD%8D%E7%BD%AE.html",
+      "relativePath": "blog/browser/google扩展程序位置.md",
+      "key": "v-36d95a90",
+      "path": "/blog/browser/google%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F%E4%BD%8D%E7%BD%AE.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/browser/",
+      "relativePath": "blog/browser/index.md",
+      "key": "v-72ab308c",
+      "path": "/blog/browser/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/browser/meta.html",
+      "relativePath": "blog/browser/meta.md",
+      "key": "v-06a1d79e",
+      "path": "/blog/browser/meta.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/browser/%E6%90%9C%E7%B4%A2%E6%A1%86.html",
+      "relativePath": "blog/browser/搜索框.md",
+      "key": "v-7eb2186e",
+      "path": "/blog/browser/%E6%90%9C%E7%B4%A2%E6%A1%86.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/browser/%E6%B8%B2%E6%9F%93.html",
+      "relativePath": "blog/browser/渲染.md",
+      "key": "v-0d01efff",
+      "path": "/blog/browser/%E6%B8%B2%E6%9F%93.html"
+    },
+    {
+      "title": "前端常用静态文件服务器",
+      "frontmatter": {},
+      "regularPath": "/blog/browser/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8.html",
+      "relativePath": "blog/browser/静态文件服务器.md",
+      "key": "v-c55fe14e",
+      "path": "/blog/browser/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "运用anywhere",
+          "slug": "运用anywhere"
+        },
+        {
+          "level": 2,
+          "title": "运用lite-server",
+          "slug": "运用lite-server"
+        }
+      ]
+    },
+    {
+      "title": "TypeScript",
+      "frontmatter": {},
+      "regularPath": "/blog/TypeScript/",
+      "relativePath": "blog/TypeScript/index.md",
+      "key": "v-7bb95c30",
+      "path": "/blog/TypeScript/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "类型系统",
+          "slug": "类型系统"
+        },
+        {
+          "level": 3,
+          "title": "TypeScript 是静态类型",
+          "slug": "typescript-是静态类型"
+        },
+        {
+          "level": 3,
+          "title": "TypeScript 是弱类型",
+          "slug": "typescript-是弱类型"
+        },
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        }
+      ]
+    },
+    {
+      "title": "类型别名",
+      "frontmatter": {},
+      "regularPath": "/blog/TypeScript/2-%E8%BF%9B%E9%98%B6.html",
+      "relativePath": "blog/TypeScript/2-进阶.md",
+      "key": "v-1593a1b2",
+      "path": "/blog/TypeScript/2-%E8%BF%9B%E9%98%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "类型别名",
+          "slug": "类型别名"
+        },
+        {
+          "level": 2,
+          "title": "字符串字面量类型",
+          "slug": "字符串字面量类型"
+        },
+        {
+          "level": 2,
+          "title": "元组",
+          "slug": "元组"
+        },
+        {
+          "level": 2,
+          "title": "枚举",
+          "slug": "枚举"
+        },
+        {
+          "level": 3,
+          "title": "计算所得项",
+          "slug": "计算所得项"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/canvas/",
+      "relativePath": "blog/canvas/index.md",
+      "key": "v-3c80a850",
+      "path": "/blog/canvas/"
+    },
+    {
+      "title": "css",
+      "frontmatter": {},
+      "regularPath": "/blog/css/",
+      "relativePath": "blog/css/index.md",
+      "key": "v-16778204",
+      "path": "/blog/css/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/browser/%E9%A1%B5%E9%9D%A2%E5%88%B7%E6%96%B0%E6%8F%90%E7%A4%BA.html",
+      "relativePath": "blog/browser/页面刷新提示.md",
+      "key": "v-76ed7edd",
+      "path": "/blog/browser/%E9%A1%B5%E9%9D%A2%E5%88%B7%E6%96%B0%E6%8F%90%E7%A4%BA.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "建议使用 window.onXXXEvent 绑定方法，因为该方法在 Chrome 和 Firefox 中无论是刷新还是关闭都会弹窗；而 window.addEventListener 这种绑定方式在关闭选项卡的时候是不提示的！",
+          "slug": "建议使用-window-onxxxevent-绑定方法-因为该方法在-chrome-和-firefox-中无论是刷新还是关闭都会弹窗-而-window-addeventlistener-这种绑定方式在关闭选项卡的时候是不提示的"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/es6/",
+      "relativePath": "blog/es6/index.md",
+      "key": "v-1c18780c",
+      "path": "/blog/es6/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/es6/ECMAScript%206%20%E5%85%A5%E9%97%A8---%E9%98%AE%E4%B8%80%E5%B3%B0.html",
+      "relativePath": "blog/es6/ECMAScript 6 入门---阮一峰.md",
+      "key": "v-555b055e",
+      "path": "/blog/es6/ECMAScript%206%20%E5%85%A5%E9%97%A8---%E9%98%AE%E4%B8%80%E5%B3%B0.html"
+    },
+    {
+      "title": "目录",
+      "frontmatter": {
+        "pageClass": "custom-page-class"
+      },
+      "regularPath": "/blog/",
+      "relativePath": "blog/index.md",
+      "key": "v-6239af7f",
+      "path": "/blog/"
+    },
+    {
+      "title": "jQuery 效果 - animate() 方法",
+      "frontmatter": {},
+      "regularPath": "/blog/jq/animate%E6%96%B9%E6%B3%95.html",
+      "relativePath": "blog/jq/animate方法.md",
+      "key": "v-506a1de2",
+      "path": "/blog/jq/animate%E6%96%B9%E6%B3%95.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/jq/",
+      "relativePath": "blog/jq/index.md",
+      "key": "v-47a6f820",
+      "path": "/blog/jq/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/canvas/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88.html",
+      "relativePath": "blog/canvas/粒子特效.md",
+      "key": "v-1af96968",
+      "path": "/blog/canvas/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/js/",
+      "relativePath": "blog/js/index.md",
+      "key": "v-778147b0",
+      "path": "/blog/js/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/es6/promise.html",
+      "relativePath": "blog/es6/promise.md",
+      "key": "v-289be0ef",
+      "path": "/blog/es6/promise.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/node/glob.html",
+      "relativePath": "blog/node/glob.md",
+      "key": "v-93fa9ada",
+      "path": "/blog/node/glob.html"
+    },
+    {
+      "title": "node",
+      "frontmatter": {},
+      "regularPath": "/blog/node/",
+      "relativePath": "blog/node/index.md",
+      "key": "v-4e805a50",
+      "path": "/blog/node/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/jq/jquery-note.html",
+      "relativePath": "blog/jq/jquery-note.md",
+      "key": "v-182d9157",
+      "path": "/blog/jq/jquery-note.html"
+    },
+    {
+      "title": "cached",
+      "frontmatter": {},
+      "regularPath": "/blog/js/utils.html",
+      "relativePath": "blog/js/utils.md",
+      "key": "v-4402edd2",
+      "path": "/blog/js/utils.html"
+    },
+    {
+      "title": "concurrently",
+      "frontmatter": {},
+      "regularPath": "/blog/node/npm%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.html",
+      "relativePath": "blog/node/npm常用模块.md",
+      "key": "v-5cf51286",
+      "path": "/blog/node/npm%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "concurrently",
+          "slug": "concurrently"
+        },
+        {
+          "level": 2,
+          "title": "cross-env",
+          "slug": "cross-env"
+        },
+        {
+          "level": 2,
+          "title": "watch",
+          "slug": "watch"
+        },
+        {
+          "level": 2,
+          "title": "fs-extra",
+          "slug": "fs-extra"
+        },
+        {
+          "level": 2,
+          "title": "path",
+          "slug": "path"
+        },
+        {
+          "level": 2,
+          "title": "glob",
+          "slug": "glob"
+        }
+      ]
+    },
+    {
+      "title": "path",
+      "frontmatter": {},
+      "regularPath": "/blog/node/path.html",
+      "relativePath": "blog/node/path.md",
+      "key": "v-1610728e",
+      "path": "/blog/node/path.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/python/",
+      "relativePath": "blog/python/index.md",
+      "key": "v-55864460",
+      "path": "/blog/python/"
+    },
+    {
+      "title": "列表生成式",
+      "frontmatter": {},
+      "regularPath": "/blog/python/generator.html",
+      "relativePath": "blog/python/generator.md",
+      "key": "v-532626f7",
+      "path": "/blog/python/generator.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "列表生成式",
+          "slug": "列表生成式"
+        },
+        {
+          "level": 2,
+          "title": "生成器",
+          "slug": "生成器"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/python/python%E5%87%BD%E6%95%B0.html",
+      "relativePath": "blog/python/python函数.md",
+      "key": "v-799c93c8",
+      "path": "/blog/python/python%E5%87%BD%E6%95%B0.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/python/python%E5%9F%BA%E7%A1%80.html",
+      "relativePath": "blog/python/python基础.md",
+      "key": "v-355ae5be",
+      "path": "/blog/python/python%E5%9F%BA%E7%A1%80.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/python/python%E5%BC%82%E5%B8%B8.html",
+      "relativePath": "blog/python/python异常.md",
+      "key": "v-3995c5fc",
+      "path": "/blog/python/python%E5%BC%82%E5%B8%B8.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/python/python%E7%B1%BB.html",
+      "relativePath": "blog/python/python类.md",
+      "key": "v-eb0ca3ec",
+      "path": "/blog/python/python%E7%B1%BB.html"
+    },
+    {
+      "title": "安装python",
+      "frontmatter": {},
+      "regularPath": "/blog/python/%E5%88%9D%E5%A7%8B.html",
+      "relativePath": "blog/python/初始.md",
+      "key": "v-2e8cce80",
+      "path": "/blog/python/%E5%88%9D%E5%A7%8B.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/react/create-react-app.html",
+      "relativePath": "blog/react/create-react-app.md",
+      "key": "v-2405c2f1",
+      "path": "/blog/react/create-react-app.html"
+    },
+    {
+      "title": "从文件中读取数据",
+      "frontmatter": {},
+      "regularPath": "/blog/python/python%E6%96%87%E4%BB%B6.html",
+      "relativePath": "blog/python/python文件.md",
+      "key": "v-4d7ecba0",
+      "path": "/blog/python/python%E6%96%87%E4%BB%B6.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/react/",
+      "relativePath": "blog/react/index.md",
+      "key": "v-4dd43e8c",
+      "path": "/blog/react/"
+    },
+    {
+      "title": "vue学习文档",
+      "frontmatter": {},
+      "regularPath": "/blog/vue/",
+      "relativePath": "blog/vue/index.md",
+      "key": "v-fe759304",
+      "path": "/blog/vue/"
+    },
+    {
+      "title": "module",
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vuex.html",
+      "relativePath": "blog/vue/vuex.md",
+      "key": "v-530c4951",
+      "path": "/blog/vue/vuex.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "module",
+          "slug": "module"
+        }
+      ]
+    },
+    {
+      "title": "基础的数据代理检测",
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-2-%E5%9F%BA%E7%A1%80%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86%E6%A3%80%E6%B5%8B.html",
+      "relativePath": "blog/vue/vue源码-2-基础的数据代理检测.md",
+      "key": "v-27a322fd",
+      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-2-%E5%9F%BA%E7%A1%80%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86%E6%A3%80%E6%B5%8B.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Object.defineProperty",
+          "slug": "object-defineproperty"
+        },
+        {
+          "level": 2,
+          "title": "Proxy",
+          "slug": "proxy"
+        },
+        {
+          "level": 2,
+          "title": "initProxy",
+          "slug": "initproxy"
+        },
+        {
+          "level": 3,
+          "title": "handlers的实现",
+          "slug": "handlers的实现"
+        }
+      ]
+    },
+    {
+      "title": "实例挂载流程和模板编译",
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-3-%E5%AE%9E%E4%BE%8B%E6%8C%82%E8%BD%BD%E6%B5%81%E7%A8%8B%E5%92%8C%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91.html",
+      "relativePath": "blog/vue/vue源码-3-实例挂载流程和模板编译.md",
+      "key": "v-3b029054",
+      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-3-%E5%AE%9E%E4%BE%8B%E6%8C%82%E8%BD%BD%E6%B5%81%E7%A8%8B%E5%92%8C%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "实例的挂载渲染流程",
+          "slug": "实例的挂载渲染流程"
+        },
+        {
+          "level": 3,
+          "title": "Runtime + Compiler",
+          "slug": "runtime-compiler"
+        },
+        {
+          "level": 3,
+          "title": "Runtime Only",
+          "slug": "runtime-only"
+        },
+        {
+          "level": 3,
+          "title": "实力挂载基本思路",
+          "slug": "实力挂载基本思路"
+        },
+        {
+          "level": 2,
+          "title": "模板编译",
+          "slug": "模板编译"
+        },
+        {
+          "level": 3,
+          "title": "template的三种写法",
+          "slug": "template的三种写法"
+        },
+        {
+          "level": 3,
+          "title": "编译流程图解",
+          "slug": "编译流程图解"
+        },
+        {
+          "level": 3,
+          "title": "逻辑解析",
+          "slug": "逻辑解析"
+        }
+      ]
+    },
+    {
+      "title": "丰富的选项合并策略",
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-1-%E4%B8%B0%E5%AF%8C%E7%9A%84%E9%80%89%E9%A1%B9%E5%90%88%E5%B9%B6%E7%AD%96%E7%95%A5.html",
+      "relativePath": "blog/vue/vue源码-1-丰富的选项合并策略.md",
+      "key": "v-200e442c",
+      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-1-%E4%B8%B0%E5%AF%8C%E7%9A%84%E9%80%89%E9%A1%B9%E5%90%88%E5%B9%B6%E7%AD%96%E7%95%A5.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vue的引入",
+          "slug": "vue的引入"
+        },
+        {
+          "level": 3,
+          "title": "基础使用",
+          "slug": "基础使用"
+        },
+        {
+          "level": 3,
+          "title": "Vue构造器",
+          "slug": "vue构造器"
+        },
+        {
+          "level": 2,
+          "title": "构造器的默认选项",
+          "slug": "构造器的默认选项"
+        },
+        {
+          "level": 2,
+          "title": "选项检验",
+          "slug": "选项检验"
+        },
+        {
+          "level": 3,
+          "title": "components规范检验",
+          "slug": "components规范检验"
+        },
+        {
+          "level": 3,
+          "title": "props规范检验",
+          "slug": "props规范检验"
+        },
+        {
+          "level": 3,
+          "title": "inject的规范校验",
+          "slug": "inject的规范校验"
+        },
+        {
+          "level": 3,
+          "title": "directive的规范校验",
+          "slug": "directive的规范校验"
+        },
+        {
+          "level": 2,
+          "title": "子类构造器",
+          "slug": "子类构造器"
+        },
+        {
+          "level": 2,
+          "title": "合并策略",
+          "slug": "合并策略"
+        },
+        {
+          "level": 2,
+          "title": "常规选项的合并",
+          "slug": "常规选项的合并"
+        },
+        {
+          "level": 3,
+          "title": "el的合并",
+          "slug": "el的合并"
+        },
+        {
+          "level": 3,
+          "title": "data合并",
+          "slug": "data合并"
+        },
+        {
+          "level": 2,
+          "title": "自带资源选项合并",
+          "slug": "自带资源选项合并"
+        },
+        {
+          "level": 2,
+          "title": "生命周期钩子函数的合并",
+          "slug": "生命周期钩子函数的合并"
+        },
+        {
+          "level": 2,
+          "title": "watch选项合并",
+          "slug": "watch选项合并"
+        },
+        {
+          "level": 2,
+          "title": "props methods inject computed合并",
+          "slug": "props-methods-inject-computed合并"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-4-%E5%AE%8C%E6%95%B4%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html",
+      "relativePath": "blog/vue/vue源码-4-完整渲染流程.md",
+      "key": "v-717b6e75",
+      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-4-%E5%AE%8C%E6%95%B4%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Virtual DOM",
+          "slug": "virtual-dom"
+        },
+        {
+          "level": 2,
+          "title": "Vnode",
+          "slug": "vnode"
+        },
+        {
+          "level": 3,
+          "title": "Vnode构造函数",
+          "slug": "vnode构造函数"
+        },
+        {
+          "level": 3,
+          "title": "创建Vnode注释节点",
+          "slug": "创建vnode注释节点"
+        },
+        {
+          "level": 3,
+          "title": "创建Vnode文本节点",
+          "slug": "创建vnode文本节点"
+        },
+        {
+          "level": 3,
+          "title": "克隆vnode",
+          "slug": "克隆vnode"
+        },
+        {
+          "level": 2,
+          "title": "Virtual DOM的创建",
+          "slug": "virtual-dom的创建"
+        },
+        {
+          "level": 2,
+          "title": "虚拟Vnode映射成真实DOM",
+          "slug": "虚拟vnode映射成真实dom"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-7-%E5%93%8D%E5%BA%94%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA.html",
+      "relativePath": "blog/vue/vue源码-7-响应式系统构建.md",
+      "key": "v-ee64b8ce",
+      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-7-%E5%93%8D%E5%BA%94%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/vue/%E6%8F%92%E6%A7%BD.html",
+      "relativePath": "blog/vue/插槽.md",
+      "key": "v-1860c1db",
+      "path": "/blog/vue/%E6%8F%92%E6%A7%BD.html"
+    },
+    {
+      "title": "组件两种注册方式",
+      "frontmatter": {},
+      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-5-%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80.html",
+      "relativePath": "blog/vue/vue源码-5-组件基础.md",
+      "key": "v-f8cbcd44",
+      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-5-%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "组件两种注册方式",
+          "slug": "组件两种注册方式"
+        },
+        {
+          "level": 3,
+          "title": "全局注册",
+          "slug": "全局注册"
+        },
+        {
+          "level": 3,
+          "title": "局部注册",
+          "slug": "局部注册"
+        },
+        {
+          "level": 3,
+          "title": "注册过程",
+          "slug": "注册过程"
+        },
+        {
+          "level": 2,
+          "title": "组件Vnode创建",
+          "slug": "组件vnode创建"
+        },
+        {
+          "level": 2,
+          "title": "组件Vnode渲染真实DOM",
+          "slug": "组件vnode渲染真实dom"
+        },
+        {
+          "level": 2,
+          "title": "建立组件联系",
+          "slug": "建立组件联系"
+        }
+      ]
+    },
+    {
       "title": "原始类型",
       "frontmatter": {},
       "regularPath": "/blog/TypeScript/1-%E5%9F%BA%E7%A1%80.html",
       "relativePath": "blog/TypeScript/1-基础.md",
-      "key": "v-2edf8c38",
+      "key": "v-6773091a",
       "path": "/blog/TypeScript/1-%E5%9F%BA%E7%A1%80.html",
       "headers": [
         {
@@ -196,578 +902,17 @@ export const siteData = {
       ]
     },
     {
+      "title": "Vue 函数式组件 functional",
       "frontmatter": {},
-      "regularPath": "/blog/browser/",
-      "relativePath": "blog/browser/index.md",
-      "key": "v-25eca182",
-      "path": "/blog/browser/"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "我的主页",
-        "tagline": "My homepage",
-        "actionText": "技术文档 →",
-        "actionLink": "/blog/",
-        "footer": "Hanhan的个人博客"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-374e8902",
-      "path": "/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/browser/Jetbrains%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E9%87%8D%E7%BD%AE%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.html",
-      "relativePath": "blog/browser/Jetbrains系列产品重置试用方法.md",
-      "key": "v-12d7d70c",
-      "path": "/blog/browser/Jetbrains%E7%B3%BB%E5%88%97%E4%BA%A7%E5%93%81%E9%87%8D%E7%BD%AE%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.html"
-    },
-    {
-      "title": "谷歌浏览器",
-      "frontmatter": {},
-      "regularPath": "/blog/browser/google%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F%E4%BD%8D%E7%BD%AE.html",
-      "relativePath": "blog/browser/google扩展程序位置.md",
-      "key": "v-7a329d3d",
-      "path": "/blog/browser/google%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F%E4%BD%8D%E7%BD%AE.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/browser/%E6%90%9C%E7%B4%A2%E6%A1%86.html",
-      "relativePath": "blog/browser/搜索框.md",
-      "key": "v-3d69ad9a",
-      "path": "/blog/browser/%E6%90%9C%E7%B4%A2%E6%A1%86.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/canvas/",
-      "relativePath": "blog/canvas/index.md",
-      "key": "v-56a60d15",
-      "path": "/blog/canvas/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/browser/meta.html",
-      "relativePath": "blog/browser/meta.md",
-      "key": "v-566506b6",
-      "path": "/blog/browser/meta.html"
-    },
-    {
-      "title": "TypeScript",
-      "frontmatter": {},
-      "regularPath": "/blog/TypeScript/",
-      "relativePath": "blog/TypeScript/index.md",
-      "key": "v-74e42bf5",
-      "path": "/blog/TypeScript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "类型系统",
-          "slug": "类型系统"
-        },
-        {
-          "level": 3,
-          "title": "TypeScript 是静态类型",
-          "slug": "typescript-是静态类型"
-        },
-        {
-          "level": 3,
-          "title": "TypeScript 是弱类型",
-          "slug": "typescript-是弱类型"
-        },
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/browser/%E6%B8%B2%E6%9F%93.html",
-      "relativePath": "blog/browser/渲染.md",
-      "key": "v-456f4304",
-      "path": "/blog/browser/%E6%B8%B2%E6%9F%93.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/es6/",
-      "relativePath": "blog/es6/index.md",
-      "key": "v-4bbd3f02",
-      "path": "/blog/es6/"
-    },
-    {
-      "title": "css",
-      "frontmatter": {},
-      "regularPath": "/blog/css/",
-      "relativePath": "blog/css/index.md",
-      "key": "v-02b5c2ee",
-      "path": "/blog/css/"
-    },
-    {
-      "title": "前端常用静态文件服务器",
-      "frontmatter": {},
-      "regularPath": "/blog/browser/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8.html",
-      "relativePath": "blog/browser/静态文件服务器.md",
-      "key": "v-264b91c4",
-      "path": "/blog/browser/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "运用anywhere",
-          "slug": "运用anywhere"
-        },
-        {
-          "level": 2,
-          "title": "运用lite-server",
-          "slug": "运用lite-server"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/jq/",
-      "relativePath": "blog/jq/index.md",
-      "key": "v-11b17db5",
-      "path": "/blog/jq/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/canvas/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88.html",
-      "relativePath": "blog/canvas/粒子特效.md",
-      "key": "v-0bb5c711",
-      "path": "/blog/canvas/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88.html"
-    },
-    {
-      "title": "目录",
-      "frontmatter": {
-        "pageClass": "custom-page-class"
-      },
-      "regularPath": "/blog/",
-      "relativePath": "blog/index.md",
-      "key": "v-134abdf8",
-      "path": "/blog/"
-    },
-    {
-      "title": "jQuery 效果 - animate() 方法",
-      "frontmatter": {},
-      "regularPath": "/blog/jq/animate%E6%96%B9%E6%B3%95.html",
-      "relativePath": "blog/jq/animate方法.md",
-      "key": "v-1c3c6667",
-      "path": "/blog/jq/animate%E6%96%B9%E6%B3%95.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/es6/ECMAScript%206%20%E5%85%A5%E9%97%A8---%E9%98%AE%E4%B8%80%E5%B3%B0.html",
-      "relativePath": "blog/es6/ECMAScript 6 入门---阮一峰.md",
-      "key": "v-00779823",
-      "path": "/blog/es6/ECMAScript%206%20%E5%85%A5%E9%97%A8---%E9%98%AE%E4%B8%80%E5%B3%B0.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/js/",
-      "relativePath": "blog/js/index.md",
-      "key": "v-a5f37d16",
-      "path": "/blog/js/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/node/glob.html",
-      "relativePath": "blog/node/glob.md",
-      "key": "v-7ca3a650",
-      "path": "/blog/node/glob.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/browser/%E9%A1%B5%E9%9D%A2%E5%88%B7%E6%96%B0%E6%8F%90%E7%A4%BA.html",
-      "relativePath": "blog/browser/页面刷新提示.md",
-      "key": "v-a926ae3c",
-      "path": "/blog/browser/%E9%A1%B5%E9%9D%A2%E5%88%B7%E6%96%B0%E6%8F%90%E7%A4%BA.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "建议使用 window.onXXXEvent 绑定方法，因为该方法在 Chrome 和 Firefox 中无论是刷新还是关闭都会弹窗；而 window.addEventListener 这种绑定方式在关闭选项卡的时候是不提示的！",
-          "slug": "建议使用-window-onxxxevent-绑定方法-因为该方法在-chrome-和-firefox-中无论是刷新还是关闭都会弹窗-而-window-addeventlistener-这种绑定方式在关闭选项卡的时候是不提示的"
-        }
-      ]
-    },
-    {
-      "title": "node",
-      "frontmatter": {},
-      "regularPath": "/blog/node/",
-      "relativePath": "blog/node/index.md",
-      "key": "v-3c8e2cd6",
-      "path": "/blog/node/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/python/",
-      "relativePath": "blog/python/index.md",
-      "key": "v-213b7ad6",
-      "path": "/blog/python/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/jq/jquery-note.html",
-      "relativePath": "blog/jq/jquery-note.md",
-      "key": "v-2e268d48",
-      "path": "/blog/jq/jquery-note.html"
-    },
-    {
-      "title": "cached",
-      "frontmatter": {},
-      "regularPath": "/blog/js/utils.html",
-      "relativePath": "blog/js/utils.md",
-      "key": "v-045dd09c",
-      "path": "/blog/js/utils.html"
-    },
-    {
-      "title": "concurrently",
-      "frontmatter": {},
-      "regularPath": "/blog/node/npm%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.html",
-      "relativePath": "blog/node/npm常用模块.md",
-      "key": "v-19109dea",
-      "path": "/blog/node/npm%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "concurrently",
-          "slug": "concurrently"
-        },
-        {
-          "level": 2,
-          "title": "cross-env",
-          "slug": "cross-env"
-        },
-        {
-          "level": 2,
-          "title": "watch",
-          "slug": "watch"
-        },
-        {
-          "level": 2,
-          "title": "fs-extra",
-          "slug": "fs-extra"
-        },
-        {
-          "level": 2,
-          "title": "path",
-          "slug": "path"
-        },
-        {
-          "level": 2,
-          "title": "glob",
-          "slug": "glob"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/es6/promise.html",
-      "relativePath": "blog/es6/promise.md",
-      "key": "v-21c6b0b4",
-      "path": "/blog/es6/promise.html"
-    },
-    {
-      "title": "path",
-      "frontmatter": {},
-      "regularPath": "/blog/node/path.html",
-      "relativePath": "blog/node/path.md",
-      "key": "v-00a340fe",
-      "path": "/blog/node/path.html"
-    },
-    {
-      "title": "列表生成式",
-      "frontmatter": {},
-      "regularPath": "/blog/python/generator.html",
-      "relativePath": "blog/python/generator.md",
-      "key": "v-3f507708",
-      "path": "/blog/python/generator.html",
+      "regularPath": "/blog/vue/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BB%84%E4%BB%B6.html",
+      "relativePath": "blog/vue/函数式组件.md",
+      "key": "v-30d6b754",
+      "path": "/blog/vue/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BB%84%E4%BB%B6.html",
       "headers": [
         {
           "level": 3,
-          "title": "列表生成式",
-          "slug": "列表生成式"
-        },
-        {
-          "level": 2,
-          "title": "生成器",
-          "slug": "生成器"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/react/create-react-app.html",
-      "relativePath": "blog/react/create-react-app.md",
-      "key": "v-96737e14",
-      "path": "/blog/react/create-react-app.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/python/python%E5%87%BD%E6%95%B0.html",
-      "relativePath": "blog/python/python函数.md",
-      "key": "v-25cac6e1",
-      "path": "/blog/python/python%E5%87%BD%E6%95%B0.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/react/",
-      "relativePath": "blog/react/index.md",
-      "key": "v-15b3dede",
-      "path": "/blog/react/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/python/python%E5%9F%BA%E7%A1%80.html",
-      "relativePath": "blog/python/python基础.md",
-      "key": "v-47eb9de6",
-      "path": "/blog/python/python%E5%9F%BA%E7%A1%80.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/python/python%E7%B1%BB.html",
-      "relativePath": "blog/python/python类.md",
-      "key": "v-7a31fde2",
-      "path": "/blog/python/python%E7%B1%BB.html"
-    },
-    {
-      "title": "module",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vuex.html",
-      "relativePath": "blog/vue/vuex.md",
-      "key": "v-796b90d6",
-      "path": "/blog/vue/vuex.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "module",
-          "slug": "module"
-        }
-      ]
-    },
-    {
-      "title": "从文件中读取数据",
-      "frontmatter": {},
-      "regularPath": "/blog/python/python%E6%96%87%E4%BB%B6.html",
-      "relativePath": "blog/python/python文件.md",
-      "key": "v-9fd04736",
-      "path": "/blog/python/python%E6%96%87%E4%BB%B6.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/python/python%E5%BC%82%E5%B8%B8.html",
-      "relativePath": "blog/python/python异常.md",
-      "key": "v-45ce2dc7",
-      "path": "/blog/python/python%E5%BC%82%E5%B8%B8.html"
-    },
-    {
-      "title": "vue学习文档",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/",
-      "relativePath": "blog/vue/index.md",
-      "key": "v-68f2d303",
-      "path": "/blog/vue/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-7-%E5%93%8D%E5%BA%94%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA.html",
-      "relativePath": "blog/vue/vue源码-7-响应式系统构建.md",
-      "key": "v-6f3e0c5e",
-      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-7-%E5%93%8D%E5%BA%94%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA.html"
-    },
-    {
-      "title": "安装python",
-      "frontmatter": {},
-      "regularPath": "/blog/python/%E5%88%9D%E5%A7%8B.html",
-      "relativePath": "blog/python/初始.md",
-      "key": "v-35cd1ec5",
-      "path": "/blog/python/%E5%88%9D%E5%A7%8B.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-4-%E5%AE%8C%E6%95%B4%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html",
-      "relativePath": "blog/vue/vue源码-4-完整渲染流程.md",
-      "key": "v-5a8e197a",
-      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-4-%E5%AE%8C%E6%95%B4%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Virtual DOM",
-          "slug": "virtual-dom"
-        },
-        {
-          "level": 2,
-          "title": "Vnode",
-          "slug": "vnode"
-        },
-        {
-          "level": 3,
-          "title": "Vnode构造函数",
-          "slug": "vnode构造函数"
-        },
-        {
-          "level": 3,
-          "title": "创建Vnode注释节点",
-          "slug": "创建vnode注释节点"
-        },
-        {
-          "level": 3,
-          "title": "创建Vnode文本节点",
-          "slug": "创建vnode文本节点"
-        },
-        {
-          "level": 3,
-          "title": "克隆vnode",
-          "slug": "克隆vnode"
-        },
-        {
-          "level": 2,
-          "title": "Virtual DOM的创建",
-          "slug": "virtual-dom的创建"
-        },
-        {
-          "level": 2,
-          "title": "虚拟Vnode映射成真实DOM",
-          "slug": "虚拟vnode映射成真实dom"
-        }
-      ]
-    },
-    {
-      "title": "丰富的选项合并策略",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-1-%E4%B8%B0%E5%AF%8C%E7%9A%84%E9%80%89%E9%A1%B9%E5%90%88%E5%B9%B6%E7%AD%96%E7%95%A5.html",
-      "relativePath": "blog/vue/vue源码-1-丰富的选项合并策略.md",
-      "key": "v-13da322f",
-      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-1-%E4%B8%B0%E5%AF%8C%E7%9A%84%E9%80%89%E9%A1%B9%E5%90%88%E5%B9%B6%E7%AD%96%E7%95%A5.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Vue的引入",
-          "slug": "vue的引入"
-        },
-        {
-          "level": 3,
-          "title": "基础使用",
-          "slug": "基础使用"
-        },
-        {
-          "level": 3,
-          "title": "Vue构造器",
-          "slug": "vue构造器"
-        },
-        {
-          "level": 2,
-          "title": "构造器的默认选项",
-          "slug": "构造器的默认选项"
-        },
-        {
-          "level": 2,
-          "title": "选项检验",
-          "slug": "选项检验"
-        },
-        {
-          "level": 3,
-          "title": "components规范检验",
-          "slug": "components规范检验"
-        },
-        {
-          "level": 3,
-          "title": "props规范检验",
-          "slug": "props规范检验"
-        },
-        {
-          "level": 3,
-          "title": "inject的规范校验",
-          "slug": "inject的规范校验"
-        },
-        {
-          "level": 3,
-          "title": "directive的规范校验",
-          "slug": "directive的规范校验"
-        },
-        {
-          "level": 2,
-          "title": "子类构造器",
-          "slug": "子类构造器"
-        },
-        {
-          "level": 2,
-          "title": "合并策略",
-          "slug": "合并策略"
-        },
-        {
-          "level": 2,
-          "title": "常规选项的合并",
-          "slug": "常规选项的合并"
-        },
-        {
-          "level": 3,
-          "title": "el的合并",
-          "slug": "el的合并"
-        },
-        {
-          "level": 3,
-          "title": "data合并",
-          "slug": "data合并"
-        },
-        {
-          "level": 2,
-          "title": "自带资源选项合并",
-          "slug": "自带资源选项合并"
-        },
-        {
-          "level": 2,
-          "title": "生命周期钩子函数的合并",
-          "slug": "生命周期钩子函数的合并"
-        },
-        {
-          "level": 2,
-          "title": "watch选项合并",
-          "slug": "watch选项合并"
-        },
-        {
-          "level": 2,
-          "title": "props methods inject computed合并",
-          "slug": "props-methods-inject-computed合并"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/vue/%E6%8F%92%E6%A7%BD.html",
-      "relativePath": "blog/vue/插槽.md",
-      "key": "v-2dc02c40",
-      "path": "/blog/vue/%E6%8F%92%E6%A7%BD.html"
-    },
-    {
-      "title": "基础的数据代理检测",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-2-%E5%9F%BA%E7%A1%80%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86%E6%A3%80%E6%B5%8B.html",
-      "relativePath": "blog/vue/vue源码-2-基础的数据代理检测.md",
-      "key": "v-4b847742",
-      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-2-%E5%9F%BA%E7%A1%80%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BB%A3%E7%90%86%E6%A3%80%E6%B5%8B.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Object.defineProperty",
-          "slug": "object-defineproperty"
-        },
-        {
-          "level": 2,
-          "title": "Proxy",
-          "slug": "proxy"
-        },
-        {
-          "level": 2,
-          "title": "initProxy",
-          "slug": "initproxy"
-        },
-        {
-          "level": 3,
-          "title": "handlers的实现",
-          "slug": "handlers的实现"
+          "title": "Vue 函数式组件 functional",
+          "slug": "vue-函数式组件-functional"
         }
       ]
     },
@@ -776,7 +921,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/blog/vue/%E7%BB%84%E4%BB%B6.html",
       "relativePath": "blog/vue/组件.md",
-      "key": "v-114c0293",
+      "key": "v-408cda8e",
       "path": "/blog/vue/%E7%BB%84%E4%BB%B6.html",
       "headers": [
         {
@@ -797,33 +942,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/blog/vue/%E8%BF%87%E6%BB%A4%E5%99%A8.html",
-      "relativePath": "blog/vue/过滤器.md",
-      "key": "v-b7563b26",
-      "path": "/blog/vue/%E8%BF%87%E6%BB%A4%E5%99%A8.html"
-    },
-    {
-      "title": "Vue 函数式组件 functional",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BB%84%E4%BB%B6.html",
-      "relativePath": "blog/vue/函数式组件.md",
-      "key": "v-312bc899",
-      "path": "/blog/vue/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BB%84%E4%BB%B6.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "Vue 函数式组件 functional",
-          "slug": "vue-函数式组件-functional"
-        }
-      ]
-    },
-    {
       "title": "webpack",
       "frontmatter": {},
       "regularPath": "/blog/webpack/1-%E8%B5%B7%E6%AD%A5.html",
       "relativePath": "blog/webpack/1-起步.md",
-      "key": "v-1a5be792",
+      "key": "v-26ffc3b2",
       "path": "/blog/webpack/1-%E8%B5%B7%E6%AD%A5.html",
       "headers": [
         {
@@ -850,56 +973,48 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/webpack/",
-      "relativePath": "blog/webpack/index.md",
-      "key": "v-706a6c96",
-      "path": "/blog/webpack/"
+      "regularPath": "/blog/vue/%E8%BF%87%E6%BB%A4%E5%99%A8.html",
+      "relativePath": "blog/vue/过滤器.md",
+      "key": "v-5c1f86b0",
+      "path": "/blog/vue/%E8%BF%87%E6%BB%A4%E5%99%A8.html"
     },
     {
-      "title": "webpack baseConfig",
+      "title": "管理输出",
       "frontmatter": {},
-      "regularPath": "/blog/webpack/baseConfig.html",
-      "relativePath": "blog/webpack/baseConfig.md",
-      "key": "v-28788596",
-      "path": "/blog/webpack/baseConfig.html",
+      "regularPath": "/blog/webpack/3-%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.html",
+      "relativePath": "blog/webpack/3-管理输出.md",
+      "key": "v-6405375c",
+      "path": "/blog/webpack/3-%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.html",
       "headers": [
         {
-          "level": 2,
-          "title": "发现项目逐渐变大之后，webpack打包会很慢，解决办法：",
-          "slug": "发现项目逐渐变大之后-webpack打包会很慢-解决办法"
-        },
-        {
-          "level": 2,
-          "title": "webpackMerge",
-          "slug": "webpackmerge"
-        },
-        {
-          "level": 2,
-          "title": "解析(resolve)",
-          "slug": "解析-resolve"
+          "level": 3,
+          "title": "管理输出",
+          "slug": "管理输出"
         },
         {
           "level": 3,
-          "title": "resolve.alias  使用别名/简化相对路径",
-          "slug": "resolve-alias-使用别名-简化相对路径"
+          "title": "output.chunkFilename",
+          "slug": "output-chunkfilename"
         },
         {
           "level": 3,
-          "title": "resolve.extensions",
-          "slug": "resolve-extensions"
-        },
-        {
-          "level": 3,
-          "title": "resolve.modules",
-          "slug": "resolve-modules"
+          "title": "source maps",
+          "slug": "source-maps"
         }
       ]
     },
     {
       "frontmatter": {},
+      "regularPath": "/blog/webpack/",
+      "relativePath": "blog/webpack/index.md",
+      "key": "v-bd28fba0",
+      "path": "/blog/webpack/"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/blog/webpack/2-%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5.html",
       "relativePath": "blog/webpack/2-核心概念.md",
-      "key": "v-4e0e183c",
+      "key": "v-0eb84437",
       "path": "/blog/webpack/2-%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5.html",
       "headers": [
         {
@@ -945,11 +1060,113 @@ export const siteData = {
       ]
     },
     {
+      "title": "webpack baseConfig",
+      "frontmatter": {},
+      "regularPath": "/blog/webpack/baseConfig.html",
+      "relativePath": "blog/webpack/baseConfig.md",
+      "key": "v-1fe99ade",
+      "path": "/blog/webpack/baseConfig.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "发现项目逐渐变大之后，webpack打包会很慢，解决办法：",
+          "slug": "发现项目逐渐变大之后-webpack打包会很慢-解决办法"
+        },
+        {
+          "level": 2,
+          "title": "webpackMerge",
+          "slug": "webpackmerge"
+        },
+        {
+          "level": 2,
+          "title": "解析(resolve)",
+          "slug": "解析-resolve"
+        },
+        {
+          "level": 3,
+          "title": "resolve.alias  使用别名/简化相对路径",
+          "slug": "resolve-alias-使用别名-简化相对路径"
+        },
+        {
+          "level": 3,
+          "title": "resolve.extensions",
+          "slug": "resolve-extensions"
+        },
+        {
+          "level": 3,
+          "title": "resolve.modules",
+          "slug": "resolve-modules"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/webpack/npm-concurrently.html",
+      "relativePath": "blog/webpack/npm-concurrently.md",
+      "key": "v-adf3c39e",
+      "path": "/blog/webpack/npm-concurrently.html"
+    },
+    {
+      "title": "npm script 使用",
+      "frontmatter": {},
+      "regularPath": "/blog/webpack/npm%20scripts%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html",
+      "relativePath": "blog/webpack/npm scripts 使用指南.md",
+      "key": "v-3fbe9dac",
+      "path": "/blog/webpack/npm%20scripts%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原理",
+          "slug": "原理"
+        },
+        {
+          "level": 2,
+          "title": "传参",
+          "slug": "传参"
+        },
+        {
+          "level": 2,
+          "title": "钩子",
+          "slug": "钩子"
+        }
+      ]
+    },
+    {
+      "title": "命令行接口",
+      "frontmatter": {},
+      "regularPath": "/blog/webpack/webpack-command%20line%20interface.html",
+      "relativePath": "blog/webpack/webpack-command line interface.md",
+      "key": "v-acae08de",
+      "path": "/blog/webpack/webpack-command%20line%20interface.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "命令行接口",
+          "slug": "命令行接口"
+        }
+      ]
+    },
+    {
+      "title": "modules",
+      "frontmatter": {},
+      "regularPath": "/blog/webpack/webpack-modules.html",
+      "relativePath": "blog/webpack/webpack-modules.md",
+      "key": "v-3c8d22cd",
+      "path": "/blog/webpack/webpack-modules.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "modules",
+          "slug": "modules"
+        }
+      ]
+    },
+    {
       "title": "loader",
       "frontmatter": {},
       "regularPath": "/blog/webpack/loader.html",
       "relativePath": "blog/webpack/loader.md",
-      "key": "v-f041bad4",
+      "key": "v-91c00ade",
       "path": "/blog/webpack/loader.html",
       "headers": [
         {
@@ -990,170 +1207,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "管理输出",
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/3-%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.html",
-      "relativePath": "blog/webpack/3-管理输出.md",
-      "key": "v-b949e93e",
-      "path": "/blog/webpack/3-%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "管理输出",
-          "slug": "管理输出"
-        },
-        {
-          "level": 3,
-          "title": "output.chunkFilename",
-          "slug": "output-chunkfilename"
-        },
-        {
-          "level": 3,
-          "title": "source maps",
-          "slug": "source-maps"
-        }
-      ]
-    },
-    {
-      "title": "组件两种注册方式",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-5-%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80.html",
-      "relativePath": "blog/vue/vue源码-5-组件基础.md",
-      "key": "v-9e8a8e3a",
-      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-5-%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "组件两种注册方式",
-          "slug": "组件两种注册方式"
-        },
-        {
-          "level": 3,
-          "title": "全局注册",
-          "slug": "全局注册"
-        },
-        {
-          "level": 3,
-          "title": "局部注册",
-          "slug": "局部注册"
-        },
-        {
-          "level": 3,
-          "title": "注册过程",
-          "slug": "注册过程"
-        },
-        {
-          "level": 2,
-          "title": "组件Vnode创建",
-          "slug": "组件vnode创建"
-        },
-        {
-          "level": 2,
-          "title": "组件Vnode渲染真实DOM",
-          "slug": "组件vnode渲染真实dom"
-        },
-        {
-          "level": 2,
-          "title": "建立组件联系",
-          "slug": "建立组件联系"
-        }
-      ]
-    },
-    {
-      "title": "npm script 使用",
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/npm%20scripts%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html",
-      "relativePath": "blog/webpack/npm scripts 使用指南.md",
-      "key": "v-452c062f",
-      "path": "/blog/webpack/npm%20scripts%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原理",
-          "slug": "原理"
-        },
-        {
-          "level": 2,
-          "title": "传参",
-          "slug": "传参"
-        },
-        {
-          "level": 2,
-          "title": "钩子",
-          "slug": "钩子"
-        }
-      ]
-    },
-    {
-      "title": "项目",
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/dev-serverJS.html",
-      "relativePath": "blog/webpack/dev-serverJS.md",
-      "key": "v-4eb4ff76",
-      "path": "/blog/webpack/dev-serverJS.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vue-cli脚手架build目录中的dev-server.js配置文件",
-          "slug": "vue-cli脚手架build目录中的dev-server-js配置文件"
-        },
-        {
-          "level": 2,
-          "title": "demo",
-          "slug": "demo"
-        }
-      ]
-    },
-    {
-      "title": "命令行接口",
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/webpack-command%20line%20interface.html",
-      "relativePath": "blog/webpack/webpack-command line interface.md",
-      "key": "v-526cc9d4",
-      "path": "/blog/webpack/webpack-command%20line%20interface.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "命令行接口",
-          "slug": "命令行接口"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/vue-cli%E8%84%9A%E6%89%8B%E6%9E%B6build%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84dev-server.js%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.html",
-      "relativePath": "blog/webpack/vue-cli脚手架build目录中的dev-server.js配置文件.md",
-      "key": "v-a84461e0",
-      "path": "/blog/webpack/vue-cli%E8%84%9A%E6%89%8B%E6%9E%B6build%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84dev-server.js%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "demo",
-          "slug": "demo"
-        }
-      ]
-    },
-    {
-      "title": "modules",
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/webpack-modules.html",
-      "relativePath": "blog/webpack/webpack-modules.md",
-      "key": "v-c1b398dc",
-      "path": "/blog/webpack/webpack-modules.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "modules",
-          "slug": "modules"
-        }
-      ]
-    },
-    {
       "title": "Entry",
       "frontmatter": {},
       "regularPath": "/blog/webpack/webpack-%E9%85%8D%E7%BD%AE.html",
       "relativePath": "blog/webpack/webpack-配置.md",
-      "key": "v-04546be6",
+      "key": "v-c0c87a3e",
       "path": "/blog/webpack/webpack-%E9%85%8D%E7%BD%AE.html",
       "headers": [
         {
@@ -1169,17 +1227,22 @@ export const siteData = {
       ]
     },
     {
-      "title": "模块热替换",
+      "title": "项目",
       "frontmatter": {},
-      "regularPath": "/blog/webpack/%E6%A8%A1%E5%9D%97%E7%83%AD%E6%9B%B4%E6%96%B0.html",
-      "relativePath": "blog/webpack/模块热更新.md",
-      "key": "v-583a201f",
-      "path": "/blog/webpack/%E6%A8%A1%E5%9D%97%E7%83%AD%E6%9B%B4%E6%96%B0.html",
+      "regularPath": "/blog/webpack/dev-serverJS.html",
+      "relativePath": "blog/webpack/dev-serverJS.md",
+      "key": "v-fa3a921e",
+      "path": "/blog/webpack/dev-serverJS.html",
       "headers": [
         {
-          "level": 3,
-          "title": "模块热替换",
-          "slug": "模块热替换"
+          "level": 2,
+          "title": "vue-cli脚手架build目录中的dev-server.js配置文件",
+          "slug": "vue-cli脚手架build目录中的dev-server-js配置文件"
+        },
+        {
+          "level": 2,
+          "title": "demo",
+          "slug": "demo"
         }
       ]
     },
@@ -1188,7 +1251,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/blog/webpack/%E6%8F%92%E4%BB%B6plugins.html",
       "relativePath": "blog/webpack/插件plugins.md",
-      "key": "v-5951d7cb",
+      "key": "v-022e9cf4",
       "path": "/blog/webpack/%E6%8F%92%E4%BB%B6plugins.html",
       "headers": [
         {
@@ -1239,75 +1302,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/blog/webpack/npm-concurrently.html",
-      "relativePath": "blog/webpack/npm-concurrently.md",
-      "key": "v-6cc3dc94",
-      "path": "/blog/webpack/npm-concurrently.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8Fwebview.html",
-      "relativePath": "blog/小程序/小程序webview.md",
-      "key": "v-613fa26e",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8Fwebview.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8E%9F%E7%90%86.html",
-      "relativePath": "blog/小程序/小程序原理.md",
-      "key": "v-19fc4cf4",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8E%9F%E7%90%86.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/IntersectionObserver.html",
-      "relativePath": "blog/小程序/IntersectionObserver.md",
-      "key": "v-beb5149c",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/IntersectionObserver.html"
-    },
-    {
-      "title": "笔记",
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/",
-      "relativePath": "blog/小程序/index.md",
-      "key": "v-f63cf266",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8EH5%E7%9A%84%E5%8C%BA%E5%88%AB.html",
-      "relativePath": "blog/小程序/微信小程序与H5的区别.md",
-      "key": "v-5272fb19",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8EH5%E7%9A%84%E5%8C%BA%E5%88%AB.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/wxs%E5%8F%8A%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A4.html",
-      "relativePath": "blog/小程序/wxs及左滑删除.md",
-      "key": "v-a48bc88c",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/wxs%E5%8F%8A%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A4.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20-%20%E4%BD%BF%E7%94%A8npm.html",
-      "relativePath": "blog/小程序/微信小程序 - 使用npm.md",
-      "key": "v-fe2a4a22",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20-%20%E4%BD%BF%E7%94%A8npm.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A42.html",
-      "relativePath": "blog/小程序/左滑删除2.md",
-      "key": "v-553976a4",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A42.html"
-    },
-    {
       "title": "使用 source map",
       "frontmatter": {},
       "regularPath": "/blog/webpack/%E5%BC%80%E5%8F%91.html",
       "relativePath": "blog/webpack/开发.md",
-      "key": "v-bc5d6a98",
+      "key": "v-6963f7af",
       "path": "/blog/webpack/%E5%BC%80%E5%8F%91.html",
       "headers": [
         {
@@ -1318,11 +1317,137 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/IntersectionObserver.html",
+      "relativePath": "blog/小程序/IntersectionObserver.md",
+      "key": "v-e242fda6",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/IntersectionObserver.html"
+    },
+    {
+      "title": "笔记",
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/",
+      "relativePath": "blog/小程序/index.md",
+      "key": "v-10a02d70",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"
+    },
+    {
+      "title": "模块热替换",
+      "frontmatter": {},
+      "regularPath": "/blog/webpack/%E6%A8%A1%E5%9D%97%E7%83%AD%E6%9B%B4%E6%96%B0.html",
+      "relativePath": "blog/webpack/模块热更新.md",
+      "key": "v-09d7b84c",
+      "path": "/blog/webpack/%E6%A8%A1%E5%9D%97%E7%83%AD%E6%9B%B4%E6%96%B0.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "模块热替换",
+          "slug": "模块热替换"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8Fwebview.html",
+      "relativePath": "blog/小程序/小程序webview.md",
+      "key": "v-2cc07869",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8Fwebview.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8E%9F%E7%90%86.html",
+      "relativePath": "blog/小程序/小程序原理.md",
+      "key": "v-e8e9f17e",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8E%9F%E7%90%86.html"
+    },
+    {
+      "title": "WxValidate - 表单验证",
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/WxValidate%20-%20%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81.html",
+      "relativePath": "blog/小程序/WxValidate - 表单验证.md",
+      "key": "v-af526836",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/WxValidate%20-%20%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "WxValidate - 表单验证",
+          "slug": "wxvalidate-表单验证"
+        },
+        {
+          "level": 2,
+          "title": "插件介绍",
+          "slug": "插件介绍"
+        },
+        {
+          "level": 2,
+          "title": "参数说明",
+          "slug": "参数说明"
+        },
+        {
+          "level": 2,
+          "title": "内置校验规则",
+          "slug": "内置校验规则"
+        },
+        {
+          "level": 2,
+          "title": "常用实例方法",
+          "slug": "常用实例方法"
+        },
+        {
+          "level": 2,
+          "title": "addMethod(name, method, message) - 添加自定义校验",
+          "slug": "addmethod-name-method-message-添加自定义校验"
+        },
+        {
+          "level": 2,
+          "title": "使用说明",
+          "slug": "使用说明"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A42.html",
+      "relativePath": "blog/小程序/左滑删除2.md",
+      "key": "v-cd44e142",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A42.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8EH5%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+      "relativePath": "blog/小程序/微信小程序与H5的区别.md",
+      "key": "v-371abc54",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8EH5%E7%9A%84%E5%8C%BA%E5%88%AB.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20-%20%E4%BD%BF%E7%94%A8npm.html",
+      "relativePath": "blog/小程序/微信小程序 - 使用npm.md",
+      "key": "v-24b9072a",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%20-%20%E4%BD%BF%E7%94%A8npm.html"
+    },
+    {
+      "title": "数据请求怎么封装",
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%95%B0%E6%8D%AE%E8%AF%B7%E6%B1%82.html",
+      "relativePath": "blog/小程序/数据请求.md",
+      "key": "v-091cde52",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%95%B0%E6%8D%AE%E8%AF%B7%E6%B1%82.html"
+    },
+    {
+      "title": "wx.navigateTo(Object object)",
+      "frontmatter": {},
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%96%B0%E5%A2%9E%E9%A1%B5%E9%9D%A2%E9%97%B4%E9%80%9A%E4%BF%A1%E6%8E%A5%E5%8F%A3.html",
+      "relativePath": "blog/小程序/新增页面间通信接口.md",
+      "key": "v-7519dae1",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%96%B0%E5%A2%9E%E9%A1%B5%E9%9D%A2%E9%97%B4%E9%80%9A%E4%BF%A1%E6%8E%A5%E5%8F%A3.html"
+    },
+    {
       "title": "生命周期",
       "frontmatter": {},
       "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
       "relativePath": "blog/小程序/生命周期.md",
-      "key": "v-f63c7ae8",
+      "key": "v-731ace07",
       "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
       "headers": [
         {
@@ -1353,19 +1478,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据请求怎么封装",
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%95%B0%E6%8D%AE%E8%AF%B7%E6%B1%82.html",
-      "relativePath": "blog/小程序/数据请求.md",
-      "key": "v-0d38855c",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%95%B0%E6%8D%AE%E8%AF%B7%E6%B1%82.html"
-    },
-    {
       "title": "小程序:chooseimage成功会执行onHide和onShow",
       "frontmatter": {},
       "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B8%A9%E5%9D%91.html",
       "relativePath": "blog/小程序/小程序踩坑.md",
-      "key": "v-34b4d806",
+      "key": "v-6583f47e",
       "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B8%A9%E5%9D%91.html",
       "headers": [
         {
@@ -1411,56 +1528,18 @@ export const siteData = {
       ]
     },
     {
-      "title": "WxValidate - 表单验证",
       "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/WxValidate%20-%20%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81.html",
-      "relativePath": "blog/小程序/WxValidate - 表单验证.md",
-      "key": "v-d12a6cac",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/WxValidate%20-%20%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "WxValidate - 表单验证",
-          "slug": "wxvalidate-表单验证"
-        },
-        {
-          "level": 2,
-          "title": "插件介绍",
-          "slug": "插件介绍"
-        },
-        {
-          "level": 2,
-          "title": "参数说明",
-          "slug": "参数说明"
-        },
-        {
-          "level": 2,
-          "title": "内置校验规则",
-          "slug": "内置校验规则"
-        },
-        {
-          "level": 2,
-          "title": "常用实例方法",
-          "slug": "常用实例方法"
-        },
-        {
-          "level": 2,
-          "title": "addMethod(name, method, message) - 添加自定义校验",
-          "slug": "addmethod-name-method-message-添加自定义校验"
-        },
-        {
-          "level": 2,
-          "title": "使用说明",
-          "slug": "使用说明"
-        }
-      ]
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/wxs%E5%8F%8A%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A4.html",
+      "relativePath": "blog/小程序/wxs及左滑删除.md",
+      "key": "v-181ad135",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/wxs%E5%8F%8A%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A4.html"
     },
     {
       "title": "自定义组件",
       "frontmatter": {},
       "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6.html",
       "relativePath": "blog/小程序/自定义组件.md",
-      "key": "v-58a5563a",
+      "key": "v-1da2f816",
       "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6.html",
       "headers": [
         {
@@ -1492,17 +1571,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%BB%84%E4%BB%B6%E9%97%B4%E5%85%B3%E7%B3%BB.html",
-      "relativePath": "blog/小程序/组件间关系.md",
-      "key": "v-fef4848e",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%BB%84%E4%BB%B6%E9%97%B4%E5%85%B3%E7%B3%BB.html"
+      "regularPath": "/blog/webpack/vue-cli%E8%84%9A%E6%89%8B%E6%9E%B6build%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84dev-server.js%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.html",
+      "relativePath": "blog/webpack/vue-cli脚手架build目录中的dev-server.js配置文件.md",
+      "key": "v-6b432b8b",
+      "path": "/blog/webpack/vue-cli%E8%84%9A%E6%89%8B%E6%9E%B6build%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84dev-server.js%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "demo",
+          "slug": "demo"
+        }
+      ]
     },
     {
       "title": "微信小程序的相关文件类型",
       "frontmatter": {},
       "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B.html",
       "relativePath": "blog/小程序/相关文件类型.md",
-      "key": "v-15ffd44c",
+      "key": "v-4dc35447",
       "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B.html",
       "headers": [
         {
@@ -1528,27 +1614,18 @@ export const siteData = {
       ]
     },
     {
-      "title": "16th 设计模式-状态模式",
       "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/16th%20%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/16th 状态模式.md",
-      "key": "v-84c82bc0",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/16th%20%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html"
-    },
-    {
-      "title": "wx.navigateTo(Object object)",
-      "frontmatter": {},
-      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%96%B0%E5%A2%9E%E9%A1%B5%E9%9D%A2%E9%97%B4%E9%80%9A%E4%BF%A1%E6%8E%A5%E5%8F%A3.html",
-      "relativePath": "blog/小程序/新增页面间通信接口.md",
-      "key": "v-0dfb77b4",
-      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%96%B0%E5%A2%9E%E9%A1%B5%E9%9D%A2%E9%97%B4%E9%80%9A%E4%BF%A1%E6%8E%A5%E5%8F%A3.html"
+      "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%BB%84%E4%BB%B6%E9%97%B4%E5%85%B3%E7%B3%BB.html",
+      "relativePath": "blog/小程序/组件间关系.md",
+      "key": "v-190eeb74",
+      "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E7%BB%84%E4%BB%B6%E9%97%B4%E5%85%B3%E7%B3%BB.html"
     },
     {
       "title": "页面事件处理函数",
       "frontmatter": {},
       "regularPath": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E9%A1%B5%E9%9D%A2%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E5%87%BD%E6%95%B0.html",
       "relativePath": "blog/小程序/页面事件处理函数.md",
-      "key": "v-3d272ec3",
+      "key": "v-312de33e",
       "path": "/blog/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E9%A1%B5%E9%9D%A2%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E5%87%BD%E6%95%B0.html",
       "headers": [
         {
@@ -1565,45 +1642,68 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/index.md",
-      "key": "v-7bd75347",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/"
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/20th%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/20th开放-封闭原则.md",
+      "key": "v-46e6177a",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/20th%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99.html"
+    },
+    {
+      "title": "16th 设计模式-状态模式",
+      "frontmatter": {},
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/16th%20%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/16th 状态模式.md",
+      "key": "v-7d01469b",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/16th%20%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/3th%E9%97%AD%E5%8C%85%E5%92%8C%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
       "relativePath": "book-study/JavaScript设计模式与开发实践/3th闭包和高阶函数.md",
-      "key": "v-4a26c068",
+      "key": "v-496d1be3",
       "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/3th%E9%97%AD%E5%8C%85%E5%92%8C%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html"
     },
     {
       "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/20th%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/20th开放-封闭原则.md",
-      "key": "v-4069a088",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/20th%E5%BC%80%E6%94%BE-%E5%B0%81%E9%97%AD%E5%8E%9F%E5%88%99.html"
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/1th.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/1th.md",
+      "key": "v-815e53ba",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/1th.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/index.md",
+      "key": "v-50642742",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/22th%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/22th代码重构.md",
+      "key": "v-720026c6",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/22th%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/2th.html",
       "relativePath": "book-study/JavaScript设计模式与开发实践/2th.md",
-      "key": "v-d7ab4434",
+      "key": "v-704909a1",
       "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/2th.html"
     },
     {
+      "title": "模板方法模式",
       "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/contents.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/contents.md",
-      "key": "v-26fe1970",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/contents.html"
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/模板方法模式.md",
+      "key": "v-021001c7",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html"
     },
     {
       "title": "代理模式",
       "frontmatter": {},
       "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%20%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.html",
       "relativePath": "book-study/JavaScript设计模式与开发实践/代理模式 命令模式.md",
-      "key": "v-31c161fb",
+      "key": "v-1b5e1276",
       "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%20%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.html",
       "headers": [
         {
@@ -1615,174 +1715,66 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/1th.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/1th.md",
-      "key": "v-399bab30",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/1th.html"
-    },
-    {
-      "title": "单例模式",
-      "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%20%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/单例模式 策略模式.md",
-      "key": "v-1c34a264",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%20%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "单例模式",
-          "slug": "单例模式"
-        },
-        {
-          "level": 3,
-          "title": "策略模式",
-          "slug": "策略模式"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/",
-      "relativePath": "book-study/你不知道的JavaScript/index.md",
-      "key": "v-7115f440",
-      "path": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html",
       "relativePath": "book-study/JavaScript设计模式与开发实践/组合模式.md",
-      "key": "v-4491b9fc",
+      "key": "v-fccc9212",
       "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F.html",
       "relativePath": "book-study/JavaScript设计模式与开发实践/职责链模式.md",
-      "key": "v-31c17396",
+      "key": "v-2e39b2d1",
       "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/22th%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/22th代码重构.md",
-      "key": "v-76c9cabc",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/22th%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/%E5%9B%BE%E8%A7%A3http/2th.html",
-      "relativePath": "book-study/图解http/2th.md",
-      "key": "v-19de4b9c",
-      "path": "/book-study/%E5%9B%BE%E8%A7%A3http/2th.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E8%A1%8C%E4%B8%BA%E5%A7%94%E6%89%98.html",
-      "relativePath": "book-study/你不知道的JavaScript/行为委托.md",
-      "key": "v-ce1010fe",
-      "path": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E8%A1%8C%E4%B8%BA%E5%A7%94%E6%89%98.html"
     },
     {
       "title": "读书笔记",
       "frontmatter": {},
       "regularPath": "/book-study/",
       "relativePath": "book-study/index.md",
-      "key": "v-b5617e84",
+      "key": "v-0405228e",
       "path": "/book-study/"
     },
     {
       "frontmatter": {},
-      "regularPath": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E4%B8%AD%E5%8D%B7-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%AF%AD%E6%B3%95.html",
-      "relativePath": "book-study/你不知道的JavaScript/中卷-第五章-语法.md",
-      "key": "v-83acbde2",
-      "path": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E4%B8%AD%E5%8D%B7-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%AF%AD%E6%B3%95.html"
+      "regularPath": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/",
+      "relativePath": "book-study/你不知道的JavaScript/index.md",
+      "key": "v-0c0a9f3b",
+      "path": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/"
     },
     {
+      "title": "订阅发布模式",
       "frontmatter": {},
-      "regularPath": "/book-study/%E5%9B%BE%E8%A7%A3http/",
-      "relativePath": "book-study/图解http/index.md",
-      "key": "v-4e9550d6",
-      "path": "/book-study/%E5%9B%BE%E8%A7%A3http/"
-    },
-    {
-      "title": "事件",
-      "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/13th.html",
-      "relativePath": "book-study/红宝书/13th.md",
-      "key": "v-4e0f82ca",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/13th.html",
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%AE%A2%E9%98%85%E5%8F%91%E5%B8%83%E6%A8%A1%E5%BC%8F%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/订阅发布模式 迭代器模式.md",
+      "key": "v-388711d9",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%AE%A2%E9%98%85%E5%8F%91%E5%B8%83%E6%A8%A1%E5%BC%8F%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.html",
       "headers": [
         {
           "level": 3,
-          "title": "事件",
-          "slug": "事件"
+          "title": "订阅发布模式",
+          "slug": "订阅发布模式"
+        },
+        {
+          "level": 3,
+          "title": "迭代器模式",
+          "slug": "迭代器模式"
         }
       ]
     },
     {
       "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/10th.html",
-      "relativePath": "book-study/红宝书/10th.md",
-      "key": "v-cb22072c",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/10th.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/20th-json.html",
-      "relativePath": "book-study/红宝书/20th-json.md",
-      "key": "v-771c4fb8",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/20th-json.html"
-    },
-    {
-      "title": "离线应用",
-      "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/23th.html",
-      "relativePath": "book-study/红宝书/23th.md",
-      "key": "v-38eb76ac",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/23th.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "离线应用",
-          "slug": "离线应用"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/24th.html",
-      "relativePath": "book-study/红宝书/24th.md",
-      "key": "v-74bfc6ca",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/24th.html"
-    },
-    {
-      "title": "js中使用函数的高级方法",
-      "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/22th.html",
-      "relativePath": "book-study/红宝书/22th.md",
-      "key": "v-5254c28a",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/22th.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "js中使用函数的高级方法",
-          "slug": "js中使用函数的高级方法"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/",
-      "relativePath": "book-study/红宝书/index.md",
-      "key": "v-0bf7c37f",
-      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/"
+      "regularPath": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E8%A1%8C%E4%B8%BA%E5%A7%94%E6%89%98.html",
+      "relativePath": "book-study/你不知道的JavaScript/行为委托.md",
+      "key": "v-6d84cb7c",
+      "path": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E8%A1%8C%E4%B8%BA%E5%A7%94%E6%89%98.html"
     },
     {
       "title": "第一章 了解web和网络基础",
       "frontmatter": {},
       "regularPath": "/book-study/%E5%9B%BE%E8%A7%A3http/1th.html",
       "relativePath": "book-study/图解http/1th.md",
-      "key": "v-9b18f688",
+      "key": "v-dc48dd92",
       "path": "/book-study/%E5%9B%BE%E8%A7%A3http/1th.html",
       "headers": [
         {
@@ -1803,11 +1795,98 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E4%B8%AD%E5%8D%B7-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%AF%AD%E6%B3%95.html",
+      "relativePath": "book-study/你不知道的JavaScript/中卷-第五章-语法.md",
+      "key": "v-2774936c",
+      "path": "/book-study/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript/%E4%B8%AD%E5%8D%B7-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%AF%AD%E6%B3%95.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/%E5%9B%BE%E8%A7%A3http/",
+      "relativePath": "book-study/图解http/index.md",
+      "key": "v-8f59c760",
+      "path": "/book-study/%E5%9B%BE%E8%A7%A3http/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/%E5%9B%BE%E8%A7%A3http/2th.html",
+      "relativePath": "book-study/图解http/2th.md",
+      "key": "v-0d734fd2",
+      "path": "/book-study/%E5%9B%BE%E8%A7%A3http/2th.html"
+    },
+    {
+      "title": "事件",
+      "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/13th.html",
+      "relativePath": "book-study/红宝书/13th.md",
+      "key": "v-2d524c76",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/13th.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "事件",
+          "slug": "事件"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/20th-json.html",
+      "relativePath": "book-study/红宝书/20th-json.md",
+      "key": "v-0340f15f",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/20th-json.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/10th.html",
+      "relativePath": "book-study/红宝书/10th.md",
+      "key": "v-35b65365",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/10th.html"
+    },
+    {
+      "title": "离线应用",
+      "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/23th.html",
+      "relativePath": "book-study/红宝书/23th.md",
+      "key": "v-7ed19ba5",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/23th.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "离线应用",
+          "slug": "离线应用"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/24th.html",
+      "relativePath": "book-study/红宝书/24th.md",
+      "key": "v-10071dc5",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/24th.html"
+    },
+    {
+      "title": "js中使用函数的高级方法",
+      "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/22th.html",
+      "relativePath": "book-study/红宝书/22th.md",
+      "key": "v-24c7ccf6",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/22th.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "js中使用函数的高级方法",
+          "slug": "js中使用函数的高级方法"
+        }
+      ]
+    },
+    {
       "title": "新兴api",
       "frontmatter": {},
       "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/25th.html",
       "relativePath": "book-study/红宝书/25th.md",
-      "key": "v-05f548ea",
+      "key": "v-bd86c036",
       "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/25th.html",
       "headers": [
         {
@@ -1831,7 +1910,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/8th.html",
       "relativePath": "book-study/红宝书/8th.md",
-      "key": "v-0198bb5c",
+      "key": "v-b66b07e6",
       "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/8th.html"
     },
     {
@@ -1839,7 +1918,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/4th.html",
       "relativePath": "book-study/红宝书/4th.md",
-      "key": "v-117e174c",
+      "key": "v-c65063d6",
       "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/4th.html",
       "headers": [
         {
@@ -1851,86 +1930,42 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/",
+      "relativePath": "book-study/红宝书/index.md",
+      "key": "v-7b37457a",
+      "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/strictMode.html",
       "relativePath": "book-study/红宝书/strictMode.md",
-      "key": "v-3af341ec",
+      "key": "v-ac17d4f6",
       "path": "/book-study/%E7%BA%A2%E5%AE%9D%E4%B9%A6/strictMode.html"
     },
     {
-      "title": "订阅发布模式",
       "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%AE%A2%E9%98%85%E5%8F%91%E5%B8%83%E6%A8%A1%E5%BC%8F%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/订阅发布模式 迭代器模式.md",
-      "key": "v-1b33aac4",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%AE%A2%E9%98%85%E5%8F%91%E5%B8%83%E6%A8%A1%E5%BC%8F%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.html",
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/contents.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/contents.md",
+      "key": "v-41947143",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/contents.html"
+    },
+    {
+      "title": "单例模式",
+      "frontmatter": {},
+      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%20%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.html",
+      "relativePath": "book-study/JavaScript设计模式与开发实践/单例模式 策略模式.md",
+      "key": "v-48fb416e",
+      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%20%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.html",
       "headers": [
         {
           "level": 3,
-          "title": "订阅发布模式",
-          "slug": "订阅发布模式"
+          "title": "单例模式",
+          "slug": "单例模式"
         },
         {
           "level": 3,
-          "title": "迭代器模式",
-          "slug": "迭代器模式"
-        }
-      ]
-    },
-    {
-      "title": "模板方法模式",
-      "frontmatter": {},
-      "regularPath": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html",
-      "relativePath": "book-study/JavaScript设计模式与开发实践/模板方法模式.md",
-      "key": "v-ba355f68",
-      "path": "/book-study/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html"
-    },
-    {
-      "title": "实例挂载流程和模板编译",
-      "frontmatter": {},
-      "regularPath": "/blog/vue/vue%E6%BA%90%E7%A0%81-3-%E5%AE%9E%E4%BE%8B%E6%8C%82%E8%BD%BD%E6%B5%81%E7%A8%8B%E5%92%8C%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91.html",
-      "relativePath": "blog/vue/vue源码-3-实例挂载流程和模板编译.md",
-      "key": "v-3a2c1019",
-      "path": "/blog/vue/vue%E6%BA%90%E7%A0%81-3-%E5%AE%9E%E4%BE%8B%E6%8C%82%E8%BD%BD%E6%B5%81%E7%A8%8B%E5%92%8C%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "实例的挂载渲染流程",
-          "slug": "实例的挂载渲染流程"
-        },
-        {
-          "level": 3,
-          "title": "Runtime + Compiler",
-          "slug": "runtime-compiler"
-        },
-        {
-          "level": 3,
-          "title": "Runtime Only",
-          "slug": "runtime-only"
-        },
-        {
-          "level": 3,
-          "title": "实力挂载基本思路",
-          "slug": "实力挂载基本思路"
-        },
-        {
-          "level": 2,
-          "title": "模板编译",
-          "slug": "模板编译"
-        },
-        {
-          "level": 3,
-          "title": "template的三种写法",
-          "slug": "template的三种写法"
-        },
-        {
-          "level": 3,
-          "title": "编译流程图解",
-          "slug": "编译流程图解"
-        },
-        {
-          "level": 3,
-          "title": "逻辑解析",
-          "slug": "逻辑解析"
+          "title": "策略模式",
+          "slug": "策略模式"
         }
       ]
     }
@@ -1962,6 +1997,10 @@ export const siteData = {
             [
               "1-基础",
               "1-基础"
+            ],
+            [
+              "2-进阶",
+              "2-进阶"
             ]
           ],
           "collapsable": false,
